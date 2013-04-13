@@ -36,7 +36,7 @@ trap "rm -f $tmp.?; exit 1" 0 1 2 3 13 15
 #### USAGE AND ERRORS
 cmd=`basename $0 .sh`
 export SPINDLE_COMMAND=$cmd
-source `dirname $0`/spindle_functions
+source `dirname $0`/sp-boxer_functions
 
 usage() {
    echo "Usage: $cmd [-h] INPUT_FILE"
@@ -54,6 +54,7 @@ get_value() {
   echo "$line" | sed "s/^$var[	 ][	 ]*//"
 }
 ### VARIABLES
+PACKAGE_INFO=PACKAGE_INFO.txt
 date_cmd="date +%FT%T%z"
 
 ### OPTIONS
@@ -90,11 +91,12 @@ fi
 message "Using MD5 command: $MD5_CMD"
 
 # grab input file and confirm it exists
-INPUT_FILE=$1
-if [ -z "$INPUT_FILE" ]; then
-  error "Please provide an INPUT_FILE"
-elif [ ! -f $INPUT_FILE ]; then
-  error "INPUT_FILE not found: $INPUT_FILE"
+PACKAGE_DIR=`package_dir $1`
+metadata_file=$PACKAGE_DIR/$PACKAGE_INFO
+if [ -f $metadata_file ]; then
+  message "Found package metadata proceeding."
+else
+  error "Can't find package metadata: $metadata_file"
 fi
 
 # find the resource dir; this hold ReadMe file templates
@@ -111,35 +113,21 @@ fi
 
 # get the variables
 year=`date +%Y`
-shelfmark=`get_value $INPUT_FILE "SHELFMARK"`
+shelfmark=`get_value $metadata_file "SHELFMARK"`
 shelfmark_dir=`echo $shelfmark | sed 's/  */_/g'`
-staging_volume=`get_value $INPUT_FILE "STAGING_VOLUME"`
-staging_dir=`get_value $INPUT_FILE "STAGING_DIR"`
+staging_volume=`get_value $metadata_file "STAGING_VOLUME"`
+staging_dir=`get_value $metadata_file "STAGING_DIR"`
 
-# make sure the staging volume is there
-if ! ls $staging_volume/* >/dev/null ; then
-  error "STAGING_VOLUME not found $staging_volume"
-fi
+message "Using manuscript directory: $PACKAGE_DIR"
 
-staging=$staging_volume/$staging_dir
-if [ ! -d $staging ]; then
-  error "Staging dir not found: $staging"
-fi
-
-package_dir=$staging/$shelfmark_dir
-if [ ! -d $package_dir ]; then
-  error "Package directory not found: $package_dir"
-fi
-message "Using manuscript directory: $package_dir"
-
-data_dir=$package_dir/Data
+data_dir=$PACKAGE_DIR/Data
 if [ ! -d $data_dir ]; then
   error "Data directory not found: $data_dir"
 fi
 message "Using Data directory: $data_dir"
 
 # generate manifest
-cd $package_dir
+cd $PACKAGE_DIR
 manifest_file=manifest-md5s.txt
 if [ -f $manifest_file ]; then
   message "Removing old manifest: $manifest_file"
@@ -147,7 +135,8 @@ if [ -f $manifest_file ]; then
 fi
 
 file_list=$tmp.1
-find . ! -name .\* -type f | sed 's!^\./!!' > $file_list
+find . \( ! -name .\* ! -name PACKAGE_INFO.txt \) -type f | sed 's!^\./!!' > $file_list
+message "generated $file_list"
 curr=0
 total=`wc -l $file_list | awk '{ print $1 }'`
 width=`echo $total | wc -c`
@@ -163,6 +152,10 @@ do
 done < $file_list
 message "$count/$total `$date_cmd` $MANIFEST_FILE complete" 
 
+if [ -f $PACKAGE_INFO ]; then
+  message "Cleaning up; deleting $PACKAGE_INFO"
+  rm $PACKAGE_INFO
+fi
 
 
 
@@ -170,8 +163,5 @@ message "$count/$total `$date_cmd` $MANIFEST_FILE complete"
 # http://stackoverflow.com/questions/430078/shell-script-templates
 rm -f $tmp.?
 trap 0
-if [ -s $copy_log ]; then
-  message "Log written to $copy_log"
-fi
 exit 0
 
