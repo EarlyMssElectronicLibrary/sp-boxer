@@ -1,5 +1,5 @@
 # Sinai Palimpsests Project Digital Release 
-# FileList for @SHELFMARK@
+# FileList for @SHELF_MARK@
 
 ## 1 Rights and conditions of use
 
