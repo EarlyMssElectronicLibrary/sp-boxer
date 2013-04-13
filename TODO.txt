@@ -1,8 +1,3 @@
 TODO: `package_manifest` should also pre-require ReadMe and Filelist files
 TODO: create management script `boxup` to generate the package
 TODO: make repo and staging volumes configurable
-TODO: rename all scripts with `box-` prefix:
-TODO:    `package_add_data.sh` => `box-add`
-TODO:    `package_document.sh` => `box-document`
-TODO:    `package_info.sh`     => `box-info`
-TODO:    `package_manifest.sh` => `box-manifest`
