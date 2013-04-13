@@ -1,44 +1,32 @@
 # Sinai Palimpsests Project Digital Release
-# README Document for @SHELFMARK@
+# README Document for @SHELF_MARK@
 
 Authors:
 
  - Doug Emery
  - Michael Phelps
 
-## PILOT NOTES
+## HELLO
 
-Thank you for participating in the Sinai Palimpsests Project's pilot phase.
+Thank you for participating in the Sinai Palimpsests Project.
 
-Please note that, because this is a Pilot, some compromises have been made in
-the assembly of this data set. 
+Please note that our delivery methods are still in development and some
+compromises have been made in the assembly of this data set. 
 
-While these are first-quality images, they are an arbitrarily selected subset
-of the processed data. For any given folio, project scientists generate a
-standard set of 28 images, and may generate over 40 images in total.  Of
-those possible 40 images, typically only a few are optimally useful for
-reading the undertext, but we generate images to cover a range of
-permutations and results.  As a part of our Pilot effort we are sharing with
-you a selection of the core 28 images that most often render the best
-results, these are the nine "KTK" images in each image folder.  We also
-include a number of custom processed images.  Our goal in making these
-selections is two-fold: to discover the utility of the selected images for
-text characterization and to choose a number of images that will provide
-ample views for deciphering the text and will also be manageable in its size.
-One alternative, one we chose against, would be to provide 28 to 40 or more
-images of each folio.
+While these are first-quality images, they are a selected subset of the
+processed image data. For any given folio, project scientists generate a
+standard set of 28 images, and may generate over 40 images in total.  Of those
+possible 40 images, typically only a few are optimally useful for reading the
+undertext.  We generate images to cover a range of permutations and results.
+Within the Data directory here is the first core selection of images.
+Supplemental images may be provided in the ResearchContrib directory.  If you
+find texts that are particularly difficult to read with the core selections,
+you may want to look for alternates in the ResearchContrib directory.
 
 We are interested in your opinion of the image quality and of the number of
-images provided, whether (as Goldilocks would put it) it is too big, too
-small, or just right.
+images we provide.
 
-The selected images are in the "core" data and can be found in the 'Data'
-folder.  These are supplemented by the remainder of the custom images, which
-have been placed in the data set's 'ResearchContrib/Data' directory.
-  
-Also, please note that there may be inaccuracies in this ReadMe file.
-
-## 1 Sinai Palimpsest: @SHELFMARK@
+## 1 Sinai Palimpsest: @SHELF_MARK@
 
 This data set contains JPEG images of a manuscript imaged under the Sinai
 Palimpsests Project.  The purpose of this data set is to provide support for
@@ -75,10 +63,10 @@ folios with Greek uncial undertext.
 
 This data set consists of:
 
-1.  a *core* content set digital images of the subject manuscript: `Data`
+1.  a core content set digital images of the subject manuscript: `Data`
 
-2.  a directory for researcher contributed content files, not a part
-    of the core data set: `ResearchContrib`
+2.  a directory for alternate content files, added to supplement the core
+    content set: `ResearchContrib`
 
 ### 5.1 Core Data Content
 
@@ -96,134 +84,77 @@ The core data includes:
 
 The images in this data set may include the following processing types:
 
-- `DJK_ICA_01_2` Grayscale Band of image: RGB image created from an ICA of
-  reflective, fluourescent, and transmissive bands. 
+- Calibrated RGB Reflectance image (`DJK_color`); for example
+  `GeoNF-19_004v_28-008_DJK_color_RGB.jpg`.
 
-- `DJK_ICA_01_RGB` RGB image created from an ICA of reflective, fluourescent,
-  and transmissive bands. 
+- Difference image (`DIFF`); for example,
+  `Syr-7_047v_14-002_WCB_DIFF-VSGM_3-1-GS.jpg`.  Difference formed by
+  subtracting the second listed exposure number from the first listed exposure
+  number.
 
-- `KTK_pseudo_WBUVB47-MB625Rd` -- A pseudocolor image combines two processed
-  images, one from an ultraviolet separation and the other from a visible
-  separation.  The erased text is visible in the UV image and not in the
-  visible, so it appears as colored in the pseudocolor image.  The upper text
-  appears as gray or black, i.e. without color.  The images are locally
-  adjusted in contrast so that all 500x500 pixel regions have the same mean and
-  variance.  The UV processed image is put in the red separation of the
-  pseudocolor image and the visible image in the other two separations.  For
-  this image, the UV image was the WBUVB47 separation and the visible image was
-  the MB625Rd separation.
+- Fluorescent exposures image (`FLUOR`); for example
+  `SyrNF-64_001v_29-002_WCB_FLUOR-V1_17-18-19-RGB.jpg`.  Image generated using
+  only fluorescent exposures.
 
-- `KTK_pseudo_WBUVB47-VIS` -- A pseudocolor image combines two processed
-  images, one from an ultraviolet separation and the other from a visible
-  separation.  The erased text is visible in the UV image and not in the
-  visible, so it appears as colored in the pseudocolor image.  The upper text
-  appears as gray or black, i.e. without color.  The images are locally
-  adjusted in contrast so that all 500x500 pixel regions have the same mean and
-  variance.  The UV processed image is put in the red separation of the
-  pseudocolor image and the visible image in the other two separations.  For
-  this image, the UV image was the WBUVB47 separation and the visible image was
-  the MB470LB+MB535Gr+MB625Rd separation.
+- Independent Component Analysis image (`ICA`); for example,
+  `GeoNF-19_004v_28-008_DJK_ICA_01_RGB.jpg` or
+  `GeoNF-19_004v_28-008_DJK_color_RGB.jpg`.  An RGB image taken from ICA bands.
+  Selected UV, reflective, and transmissive images are used. 
 
-- `KTK_pseudo_WBUVG61-MB625Rd` -- A pseudocolor image combines two processed
-  images, one from an ultraviolet separation and the other from a visible
-  separation.  The erased text is visible in the UV image and not in the
-  visible, so it appears as colored in the pseudocolor image.  The upper text
-  appears as gray or black, i.e. without color.  The images are locally
-  adjusted in contrast so that all 500x500 pixel regions have the same mean and
-  variance.  The UV processed image is put in the red separation of the
-  pseudocolor image and the visible image in the other two separations.  For
-  this image, the UV image was the WBUVG61 separation and the visible image was
-  the MB625Rd separation.
+- Principle Components Analysis image (`PCA`); PCA image; for example,
+  `GrkNF-MG14_028v_21-032_RLE_PCA_01_RGB.jpg`,
+  `GrkNF-MG14_028v_21-032_RLE_PCA_01_RGB.jpg`, or
+  `SyrNF-64_004r_29-007_WCB_PCA-V1_1-2-4-RGB.jpg`.  An RGB image created from a
+  PCA of normalized reflective and blue fluorescent bands.
 
-- `KTK_pseudo_WBUVG61-VIS` -- A pseudocolor image combines two processed
-  images, one from an ultraviolet separation and the other from a visible
-  separation.  The erased text is visible in the UV image and not in the
-  visible, so it appears as colored in the pseudocolor image.  The upper text
-  appears as gray or black, i.e. without color.  The images are locally
-  adjusted in contrast so that all 500x500 pixel regions have the same mean and
-  variance.  The UV processed image is put in the red separation of the
-  pseudocolor image and the visible image in the other two separations.  For
-  this image, the UV image was the WBUVG61 separation and the visible image was
-  the MB470LB+MB535Gr+MB625Rd separation.
+- PhotoShoot color image (`PSH_color`); for example,
+  `GeoNF-19_054v_28-026_PSH_color.jpg`. A color image generated using the
+  PhotoShoot application at time of capture, using images of several of the
+  visible wavelengths.
 
-- `KTK_pseudo_WBUVR25-MB625Rd` -- A pseudocolor image combines two processed
-  images, one from an ultraviolet separation and the other from a visible
-  separation.  The erased text is visible in the UV image and not in the
-  visible, so it appears as colored in the pseudocolor image.  The upper text
-  appears as gray or black, i.e. without color.  The images are locally
-  adjusted in contrast so that all 500x500 pixel regions have the same mean and
-  variance.  The UV processed image is put in the red separation of the
-  pseudocolor image and the visible image in the other two separations.  For
-  this image, the UV image was the WBUVR25 separation and the visible image was
-  the MB625Rd separation.
+- Pseudocolor image (`KTK_pseudo`); for example,
+  `GeoNF-19_053r_28-023_KTK_pseudo_WBUVUVb-MB780IR.jpg`.  A pseudocolor image
+  combines two processed images, one from an ultraviolet separation and the
+  other from a visible separation.  The erased text is visible in the UV image
+  and not in the visible, so it appears as colored in the pseudocolor image.
+  The upper text appears as gray or black, i.e. without color.  The images are
+  locally adjusted in contrast so that all 500x500 pixel regions have the same
+  mean and variance.  The UV processed image is put in the red separation of
+  the pseudocolor image and the visible image in the other two separations.
+  For this image, the UV image was the WBUVB47 separation and the visible image
+  was the MB625Rd separation. In the example, above, the UV image was the
+  WBUVUVb separation and the visible images was MB780IR.
 
-- `KTK_pseudo_WBUVR25-VIS` -- A pseudocolor image combines two processed
-  images, one from an ultraviolet separation and the other from a visible
-  separation.  The erased text is visible in the UV image and not in the
-  visible, so it appears as colored in the pseudocolor image.  The upper text
-  appears as gray or black, i.e. without color.  The images are locally
-  adjusted in contrast so that all 500x500 pixel regions have the same mean and
-  variance.  The UV processed image is put in the red separation of the
-  pseudocolor image and the visible image in the other two separations.  For
-  this image, the UV image was the WBUVR25 separation and the visible image was
-  the MB470LB+MB535Gr+MB625Rd separation.
+- Pseudocolor image (`WCB_PSU`); for example,
+  `Grk-962_183r_23-003_WCB_PSU-VSGM-GMA_12-21-21-RGB.jpg`.  Pseudocolor formed
+  using one exposure in two channels and one different exposure in the third
+  channel.
 
-- `KTK_sharpie_WBUVB47-MB625Rd` -- A sharpie image is the difference of the
-  locally adjusted UV and visible separations of pseudocolor images.  Because
-  the upper text appears the same in both, it tends to disappear, leaving only
-  the erased text.  For this image, the UV image was the WBUVB47 separation and
-  the visible image was the MB625Rd separation.
+- Quotient image (`QUOT`); for example,
+  `Syr-7_047r_14-001_WCB_QUOT-VGMA_19-12-GS.jpg`. Quotient formed by first
+  listed exposure divided by the second listed exposure number. 
 
-- `KTK_sharpie_WBUVG61-MB625Rd` -- A sharpie image is the difference of the
-  locally adjusted UV and visible separations of pseudocolor images.  Because
-  the upper text appears the same in both, it tends to disappear, leaving only
-  the erased text.  For this image, the UV image was the WBUVG61 separation and
-  the visible image was the MB625Rd separation.
+- Reflectance and fluorescent image (`REFLU`); for example,
+  `Grk-962_183v_11-004_WCB_REFLU_9-19-21-RGB.jpg`. Image generated using
+  fluorescent and reflectance exposures.
 
-- `KTK_sharpie_WBUVR25-MB625Rd` -- A sharpie image is the difference of the
-  locally adjusted UV and visible separations of pseudocolor images.  Because
-  the upper text appears the same in both, it tends to disappear, leaving only
-  the erased text.  For this image, the UV image was the WBUVR25 separation and
-  the visible image was the MB625Rd separation.
+- Sharpie image (`sharpie`); for example,
+  `GeoNF-19_053v_28-024_KTK_sharpie_WBUVB47-MB780IR.jpg`.  A sharpie image is
+  the difference of the locally adjusted UV and visible separations of
+  pseudocolor images.  Because the upper text appears the same in both, it
+  tends to disappear, leaving only the erased text.  For the sample image, the UV
+  image was the WBUVB47 separation and the visible image was the MB780IR
+  separation.
 
-- `PSH_color` - Color image generated using the PhotoShoot application at time 
-  of capture, using images of several of the visible wavelengths.
+- Txratio image (`txratio`); for example, `28-024_KTK_txratio_TX940IR-MB940IR.jpg`. A
+  txratio image divides the IR transmission image by the IR reflectance images
+  and then performs a global adjustment of the contrast.  The result will show
+  characters that have eaten away at the parchment, as white-on-black.  For the
+  sample image, the transmission image was the TX940IR separation and the
+  reflectance image was the MB940IR separation.
 
-- `RLE_PCA_01` Grayscale band XX of RGB image created from a PCA of normalized
-  reflective and blue fluourescent bands. 
 
-- `RLE_PCA_RGB` RGB image created from PCA of reflective and UV fluourescent
-  bands. 
-
-- `WCB_PCA_DST_RGB` An RGB image is rendered using 3 component images from
-  principal components analysis (PCA). PCA input and output images are
-  normalized. As a final step the PCA image is hue shifted by 90 deg. using the
-  ImageJ DStretch plugin.
-
-- `WCB_PCA_PSU_DST_RGB` A pseudocolor RGB image is rendered using 2 component
-  images from principal components analysis (PCA).The first component fills the
-  R channel, while the second fills G and B channels. PCA input and output
-  images are normalized. As a final step the pseudocolor image (PSU) has its
-  saturation reduced by 1.414 using the ImageJ DStretch plugin (DST).
-
-- `WCB_PCA_PSU_DST_RGB` A pseudocolor RGB image is rendered using 2 component
-  images from principal components analysis (PCA).The first component fills the
-  R channel, while the second fills G and B channels. PCA input and output
-  images are normalized. As a final step the pseudocolor image (PSU) has its
-  saturation reduced by 1.414 using the ImageJ DStretch plugin (DST).
-
-- `WCB_PCA_PSU_RGB` A pseudocolor RGB image is rendered using 2 component
-  images from principal components analysis (PCA).The first component fills the
-  R channel, while the second fills G and B channels. PCA input and output
-  images are normalized.
-
-- `WCB_PCA_RGB` An RGB image is rendered using 3 component images from
-  principal components analysis (PCA). PCA input and output images are
-  normalized.
-
-- `WCB_RGB` An RGB image is rendered using 3 normalized flattened images.
-
-#### 5.1.3 File naming
+#### 5.1.2 File naming
 
 All file names follow strict naming conventions to facilitate easy
 identification of file type and content.
@@ -257,9 +188,9 @@ prevents files of the same folio from having duplicate names.
 `PROCESSOR` gives the initials of the party responsible for generating the
 processed image. The processors are:
 
-  * WCB: Will Christens-Barry
+  * WCB: Willam Christens-Barry
   * RLE: Roger Easton
-  * DJK: Dave Kelbe
+  * DJK: David Kelbe
   * KTK: Keith Knox
   * PSH: The PhotoShoot application, which controls the camera and generates
     the `color` images at the time of capture
@@ -299,18 +230,18 @@ definitions governing several subtypes:
 5.  Data Content Information
 6.  Metadata Reference Information
 
-PILOT NOTE: Not all metadata is included with each image.
+NOTE: Not all metadata is included with each image.
 
 ### 5.2 Contributed Research Files
 
-This Contributed Research data is intended initially to include useful
-and specialized images contributed to the project by image scientists.
-These are images useful to scholars, but not integrated into the core
-data set because, for example, they are not registered to core image
-dimensions or they are not accompanied by complete metadata. Over the
-life of the data set, this directory may be used to include carefully
-vetted contributions that provide critical contributions to the data
-set, such as conservation, codicological, and other information.
+The Contributed Research data includes supplemental image files.  The core Data
+files represent a first selection of image files deemed most likely to
+facilitate reading of the under text. However, team scientists may have
+produced additional custom images. When available, these images have been
+included in the `ResearchContrib` directory.
+
+The `ResearchContrib` directory is a useful place to turn for images to
+supplement those found in the `Data` directory.
 
 ## 6 How to Use This Data Set
 
