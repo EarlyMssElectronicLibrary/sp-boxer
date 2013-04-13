@@ -1,7 +1,7 @@
 #!/bin/sh
 
 read -r -d '' HELP <<-'EOF'
-Add documentation files to the package described in the input file.
+Add documentation files to PACKAGE_DIR.
 
 A package will have the following structure.
 
@@ -30,7 +30,7 @@ This script will:
 
 Input file variables used:
 
-* SHELFMARK
+* SHELF_MARK
 EOF
 
 ### TEMPFILES
@@ -46,10 +46,10 @@ trap "rm -f $tmp.?; exit 1" 0 1 2 3 13 15
 #### USAGE AND ERRORS
 cmd=`basename $0 .sh`
 export SPINDLE_COMMAND=$cmd
-source `dirname $0`/spindle_functions
+source `dirname $0`/sp-boxer_functions
 
 usage() {
-   echo "Usage: $cmd [-h] INPUT_FILE"
+   echo "Usage: $cmd [-h] PACKAGE_DIR"
    echo ""
    echo "OPTIONS"
    echo ""
@@ -64,6 +64,7 @@ get_value() {
   echo "$line" | sed "s/^$var[	 ][	 ]*//"
 }
 ### VARIABLES
+PACKAGE_INFO=PACKAGE_INFO.txt
 date_cmd="date +%FT%T%z"
 
 ### OPTIONS
@@ -87,13 +88,20 @@ shift $((OPTIND-1))
 
 ### THESCRIPT
 # grab input file and confirm it exists
-INPUT_FILE=$1
-if [ -z "$INPUT_FILE" ]; then
-  error "Please provide an INPUT_FILE"
-elif [ ! -f $INPUT_FILE ]; then
-  error "INPUT_FILE not found: $INPUT_FILE"
-fi
+# get the variables
+# TODO make volume location configurable, over-ridable
+STAGING_VOLUME=/Volumes/SPP-Staging1
+STAGING_DIR=Scholar-Packages
+REPO_VOLUME=/Volumes/SPP-Repo1
+REPO_DIR=Repository
 
+PACKAGE_DIR=`package_dir $1`
+metadata_file=$PACKAGE_DIR/$PACKAGE_INFO
+if [ -f $metadata_file ]; then
+  message "Found package metadata proceeding."
+else
+  error "Can't find package metadata: $metadata_file"
+fi
 # find the resource dir; this hold ReadMe file templates
 RESOURCE_DIR=`dirname $0`/../data
 if [ ! -d $RESOURCE_DIR ]; then
@@ -105,50 +113,37 @@ if [ -f $README_TEMPLATE ]; then
 else
   error "Can't find ReadMe template $README_TEMPLATE"
 fi
+  
 
-# get the variables
 year=`date +%Y`
-shelfmark=`get_value $INPUT_FILE "SHELFMARK"`
-shelfmark_dir=`echo $shelfmark | sed 's/  */_/g'`
-staging_volume=`get_value $INPUT_FILE "STAGING_VOLUME"`
-staging_dir=`get_value $INPUT_FILE "STAGING_DIR"`
+shelf_mark=`get_value $metadata_file "SHELF_MARK"`
+recipient=`get_value $metadata_file "RECIPIENT"`
+shelf_mark_dir=`echo $shelf_mark | sed 's/  */_/g'`
+staging_volume=$STAGING_VOLUME
+staging_dir=$STAGING_DIR
 
-# make sure the staging volume is there
-if ! ls $staging_volume/* >/dev/null ; then
-  error "STAGING_VOLUME not found $staging_volume"
-fi
+message "Using manuscript directory: $PACKAGE_DIR"
 
-staging=$staging_volume/$staging_dir
-if [ ! -d $staging ]; then
-  error "Staging dir not found: $staging"
-fi
-
-package_dir=$staging/$shelfmark_dir
-if [ ! -d $package_dir ]; then
-  error "Package directory not found: $package_dir"
-fi
-message "Using manuscript directory: $package_dir"
-
-data_dir=$package_dir/Data
+data_dir=$PACKAGE_DIR/Data
 if [ ! -d $data_dir ]; then
   error "Data directory not found: $data_dir"
 fi
 message "Using Data directory: $data_dir"
 
 # generate the ReadMe file
-readme_file=$package_dir/01_ReadMe.txt
+readme_file=$PACKAGE_DIR/01_ReadMe.txt
 sedscr=$tmp.1
 readme_tmp=$tmp.2
 # generate sed script
 echo "s/@YEAR@/$year/g" >> $sedscr
-echo "s/@SHELFMARK@/$shelfmark/g" >> $sedscr
+echo "s/@SHELF_MARK@/$shelf_mark/g" >> $sedscr
 
 sed -f $sedscr $README_TEMPLATE > $readme_tmp
 message "Wrote tmp ReadMe file"
 
 # generate HTML readme; including TOC
 readme_head=`dirname $0`/../data/01_ReadMe_head.html
-readme_html=$package_dir/01_ReadMe.html
+readme_html=$PACKAGE_DIR/01_ReadMe.html
 readme_footer=`dirname $0`/../data/01_ReadMe_footer.html
 echo "s/(c)/\&copy;/g" > $sedscr
 cp $readme_head $readme_html
@@ -165,8 +160,8 @@ message "Wrote $readme_file"
 # copy documentation
 
 # create file list
-filelist_html=$package_dir/02_FileList.html
-filelist_txt=$package_dir/02_FileList.txt
+filelist_html=$PACKAGE_DIR/02_FileList.html
+filelist_txt=$PACKAGE_DIR/02_FileList.txt
 
 # delete the old file lists
 if [ -f $filelist_html ]; then 
@@ -178,25 +173,27 @@ fi
 
 # first create the HTML version of the file list
 
-filelist_open=`dirname $0`/../data//02_FileList_start.md
-filelist_md=$tmp.4
-echo "s/@YEAR@/$year/g" > $sedscr
-echo "s/@SHELFMARK@/$shelfmark/g" >> $sedscr
+# filelist_open=`dirname $0`/../data//02_FileList_start.md
+# filelist_md=$tmp.4
+# echo "s/@YEAR@/$year/g" > $sedscr
+# echo "s/@SHELF_MARK@/$shelf_mark/g" >> $sedscr
 # first create the HTML version of the file list
 
 filelist_open=`dirname $0`/../data//02_FileList_start.md
 filelist_md=$tmp.4
 echo "s/@YEAR@/$year/g" > $sedscr
-echo "s/@SHELFMARK@/$shelfmark/g" >> $sedscr
+echo "s/@SHELF_MARK@/$shelf_mark/g" >> $sedscr
 echo "s/(c)/\&copy;/g" >> $sedscr
 sed -f $sedscr $filelist_open > $filelist_md
 echo >> $filelist_md
 filelist_tmp=$tmp.3
 (
-cd $package_dir
-ls -r1 ** > $filelist_tmp
+cd $PACKAGE_DIR
+touch 02_FileList.txt
+touch 02_FileList.html
+ls -R1 ** | grep -v $PACKAGE_INFO > $filelist_tmp
 echo >> $filelist_tmp
-ls -r1 */* >> $filelist_tmp
+ls -R1 */* >> $filelist_tmp
 )
 root='./'
 while read line
@@ -222,17 +219,15 @@ message "Wrote $filelist_html"
 
 # now create the text version
 echo "s/@YEAR@/$year/g" > $sedscr
-echo "s/@SHELFMARK@/$shelfmark/g" >> $sedscr
+echo "s/@SHELF_MARK@/$shelf_mark/g" >> $sedscr
 echo "s/(c)/©/g" > $sedscr
 sed -f $sedscr $filelist_open > $filelist_txt
 cat $filelist_tmp >> $filelist_txt
+message "Wrote $filelist_txt"
 
 
 ### EXIT
 # http://stackoverflow.com/questions/430078/shell-script-templates
 rm -f $tmp.?
 trap 0
-if [ -s $copy_log ]; then
-  message "Log written to $copy_log"
-fi
 exit 0
