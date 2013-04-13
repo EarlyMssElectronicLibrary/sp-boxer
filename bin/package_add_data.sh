@@ -39,7 +39,7 @@ trap "rm -f $tmp.?; exit 1" 0 1 2 3 13 15
 #### USAGE AND ERRORS
 cmd=`basename $0 .sh`
 export SPINDLE_COMMAND=$cmd
-source `dirname $0`/spindle_functions
+source `dirname $0`/sp-boxer_functions
 
 usage() {
    echo "Usage: $cmd [-h] INPUT_FILE"
@@ -51,11 +51,12 @@ usage() {
 }
 
 get_value() {
-  file=$1
-  var=$2
-  line=`grep "^$var" $file 2>&1`
-  echo "$line" | sed "s/^$var[	 ][	 ]*//"
+  gv_file=$1
+  gv_var=$2
+  gv_line=`grep "^$gv_var" $gv_file 2>&1`
+  echo "$gv_line" | sed "s/^$gv_var[	 ][	 ]*//"
 }
+
 ### VARIABLES
 date_cmd="date +%FT%T%z"
 JSON_TEMPLATE=`dirname $0`/../data/metadata_template.json
@@ -92,12 +93,32 @@ elif [ ! -f $INPUT_FILE ]; then
 fi
 
 # get the variables
-shelfmark=`get_value $INPUT_FILE "SHELFMARK"`
-shelfmark_dir=`echo $shelfmark | sed 's/  */_/g'`
-staging_volume=`get_value $INPUT_FILE "STAGING_VOLUME"`
-staging_dir=`get_value $INPUT_FILE "STAGING_DIR"`
-repo_volume=`get_value $INPUT_FILE "REPO_VOLUME"`
-repo_dir=`get_value $INPUT_FILE "REPO_DIR"`
+STAGING_VOLUME=/Volumes/SPP-Staging1
+STAGING_DIR=Scholar-Packages
+REPO_VOLUME=/Volumes/SPP-Repo1
+REPO_DIR=Repository
+PACKAGE_INFO=PACKAGE_INFO.txt
+
+# TODO make volume location configurable, over-ridable
+
+shelf_mark=`get_value $INPUT_FILE "SHELF_MARK"`
+if [ -n "$shelf_mark" ]; then
+  message "Shelf mark is $shelf_mark"
+else
+  error "Could not acquire shelf mark from $INPUT_FILE"
+fi
+short_shelf_mark=`get_value $INPUT_FILE "SHORT_SHELF_MARK"`
+shelf_mark_dir=`echo $shelf_mark | sed 's/  */_/g'`
+recipient=`get_value $INPUT_FILE "RECIPIENT"`
+recipient_dir=`get_value $INPUT_FILE "RECIPIENT_DIR"`
+if [ ! -n "$recipient_dir" ]; then
+  recipient_dir="NO_RECIPIENT_SPECIFIED"
+  warning "Using recipient directory: $recipient_dir"
+fi
+staging_volume=$STAGING_VOLUME
+staging_dir=$STAGING_DIR
+repo_volume=$REPO_VOLUME
+repo_dir=$REPO_DIR
 
 # make sure we find the repository
 repository=$repo_volume/$repo_dir
@@ -112,14 +133,14 @@ if ! ls $staging_volume/* >/dev/null ; then
   error "STAGING_VOLUME not found $staging_volume"
 fi
 
-staging=$staging_volume/$staging_dir
+staging=$staging_volume/$staging_dir/$recipient_dir
 if [ ! -d $staging ]; then
   message "Creating STAGING_DIR $staging"
   mkdir -p $staging
 fi
-copy_log=$staging/${shelfmark_dir}_copy_`date +%Y%m%d-%H%M%S%z`.log
+copy_log=$staging/${shelf_mark_dir}_copy_`date +%Y%m%d-%H%M%S%z`.log
 
-package_dir=$staging/$shelfmark_dir
+package_dir=$staging/$shelf_mark_dir
 if [ -d $package_dir ]; then
   warning "Manuscript directory already exists: $package_dir"
 else 
@@ -186,7 +207,7 @@ do
   if [ -f $dest ]; then
     warning "$counter  `$date_cmd`  CORE DATA FILE EXISTS SKIPPING  `basename $dest`"
   else
-    cp -v $source $dest > $copy_log
+    cp -v $source $dest >> $copy_log
     message "$counter  `$date_cmd`  CORE DATA `basename $dest`"
     # add the metadata
     sed "s!SOURCE_FILE!${dest}!" $JSON_TEMPLATE > $metadata_tmp
@@ -215,7 +236,7 @@ do
   if [ -f $dest ]; then
     warning "$counter  `$date_cmd`  CONTRIB FILE EXISTS SKIPPING  `basename $dest`"
   else
-    cp -v $source $dest > $copy_log
+    cp -v $source $dest >> $copy_log
     message "$counter  `$date_cmd`  CONTRIB  `basename $dest`"
     # add the metadata
     sed "s!SOURCE_FILE!${dest}!" $JSON_TEMPLATE > $metadata_tmp
@@ -223,6 +244,10 @@ do
   fi
 done < $contrib_list
 
+metadata_file=$package_dir/$PACKAGE_INFO
+echo "SHELF_MARK $shelf_mark" > $metadata_file
+echo "SHORT_SHELF_MARK $short_shelf_mark" >> $metadata_file
+echo "RECIPIENT $recipient" >> $metadata_file
 
 ### EXIT
 # http://stackoverflow.com/questions/430078/shell-script-templates
