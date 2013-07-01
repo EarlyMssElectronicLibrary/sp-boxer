@@ -1,7 +1,21 @@
 #!/bin/sh
 
 read -r -d '' HELP <<-'EOF'
-Add manifest file to the package.
+
+Add manifest file to the package in PACKAGE_DIR. PACKAGE_DIR is the location
+of the files in staging; e.g.,
+
+    /Volumes/SPP-Staging/Scholar-Packages/Mary_Smith/Greek_468/
+
+Script requires a configuration file: $HOME/.sp-boxer/conf
+
+The configuration file should have the following content:
+
+      STAGING_VOLUME=/Volumes/SPP-Staging
+      STAGING_DIR=Scholar-Packages
+      REPO_VOLUME=/Volumes/SPP-REPOSITORY-1
+      REPO_DIR=Repository
+      PACKAGE_INFO=PACKAGE_INFO.txt
 
 A package will have the following structure.
 
@@ -39,7 +53,7 @@ export SPINDLE_COMMAND=$cmd
 source `dirname $0`/sp-boxer_functions
 
 usage() {
-   echo "Usage: $cmd [-h] INPUT_FILE"
+   echo "Usage: $cmd [-h] PACKAGE_DIR"
    echo ""
    echo "OPTIONS"
    echo ""
