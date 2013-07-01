@@ -90,10 +90,17 @@ shift $((OPTIND-1))
 # grab input file and confirm it exists
 # get the variables
 # TODO make volume location configurable, over-ridable
-STAGING_VOLUME=/Volumes/SPP-Staging1
-STAGING_DIR=Scholar-Packages
-REPO_VOLUME=/Volumes/SPP-Repo1
-REPO_DIR=Repository
+# STAGING_VOLUME=/Volumes/SPP-Staging1
+# STAGING_DIR=Scholar-Packages
+# REPO_VOLUME=/Volumes/SPP-Repo1
+# REPO_DIR=Repository
+
+config_file=$HOME/.sp-boxer/conf
+if [ -f $config_file ]; then
+  source $config_file
+else
+  error "No config file found; expected $config_file"
+fi
 
 PACKAGE_DIR=`package_dir $1`
 metadata_file=$PACKAGE_DIR/$PACKAGE_INFO

@@ -70,11 +70,17 @@ elif [ ! -f $INPUT_FILE ]; then
 fi
 
 # get the variables
-STAGING_VOLUME=/Volumes/SPP-Staging1
-STAGING_DIR=Scholar-Packages
-REPO_VOLUME=/Volumes/SPP-Repo1
-REPO_DIR=Repository
-PACKAGE_INFO=PACKAGE_INFO.txt
+# STAGING_VOLUME=/Volumes/SPP-Staging1
+# STAGING_DIR=Scholar-Packages
+# REPO_VOLUME=/Volumes/SPP-Repo1
+# REPO_DIR=Repository
+# PACKAGE_INFO=PACKAGE_INFO.txt
+config_file=$HOME/.sp-boxer/conf
+if [ -f $config_file ]; then
+  source $config_file
+else
+  error "No config file found; expected $config_file"
+fi
 
 # TODO make volume location configurable, over-ridable
 
