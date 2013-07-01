@@ -2,6 +2,17 @@
 
 read -r -d '' HELP <<-'EOF'
 Create the package metdata file.
+
+Script requires a configuration file: $HOME/.sp-boxer/conf
+
+The configuration file should have the following content:
+
+      STAGING_VOLUME=/Volumes/SPP-Staging
+      STAGING_DIR=Scholar-Packages
+      REPO_VOLUME=/Volumes/SPP-REPOSITORY-1
+      REPO_DIR=Repository
+      PACKAGE_INFO=PACKAGE_INFO.txt
+      
 EOF
 
 ### TEMPFILES
