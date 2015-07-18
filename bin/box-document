@@ -12,7 +12,8 @@ The configuration file should have the following content:
 
       STAGING_VOLUME=/Volumes/SPP-Staging
       STAGING_DIR=Scholar-Packages
-      REPO_VOLUME=/Volumes/SPP-REPOSITORY-1
+      CAPTURE_REPO_VOLUME=/Volumes/SPP-REPOSITORY-1
+      PROCESSED_REPO_VOLUME=/Volumes/SPP-REPOSITORY-2
       REPO_DIR=Repository
       PACKAGE_INFO=PACKAGE_INFO.txt
 
@@ -70,12 +71,6 @@ usage() {
    echo ""
 }
 
-get_value() {
-  file=$1
-  var=$2
-  line=`grep "^$var" $file 2>&1`
-  echo "$line" | sed "s/^$var[	 ][	 ]*//"
-}
 ### VARIABLES
 PACKAGE_INFO=PACKAGE_INFO.txt
 date_cmd="date +%FT%T%z"
@@ -84,7 +79,7 @@ date_cmd="date +%FT%T%z"
 while getopts ":hd:" opt; do
   case $opt in
     h)
-      usage 
+      usage
       help
       exit 1
       ;;
@@ -102,11 +97,12 @@ shift $((OPTIND-1))
 ### THESCRIPT
 # grab input file and confirm it exists
 # get the variables
-# TODO make volume location configurable, over-ridable
 # STAGING_VOLUME=/Volumes/SPP-Staging1
 # STAGING_DIR=Scholar-Packages
-# REPO_VOLUME=/Volumes/SPP-Repo1
+# CAPTURE_REPO_VOLUME=/Volumes/SPP-REPOSITORY-1
+# PROCESSED_REPO_VOLUME=/Volumes/SPP-REPOSITORY-2
 # REPO_DIR=Repository
+# PACKAGE_INFO=PACKAGE_INFO.txt
 
 config_file=$HOME/.sp-boxer/conf
 if [ -f $config_file ]; then
@@ -127,18 +123,30 @@ RESOURCE_DIR=`dirname $0`/../data
 if [ ! -d $RESOURCE_DIR ]; then
   error "Cannot find resource directory: $RESOURCE_DIR"
 fi
-README_TEMPLATE=$RESOURCE_DIR/01_ReadMe.md
-if [ -f $README_TEMPLATE ]; then
-  message "Using ReadMe template: $README_TEMPLATE"
-else
-  error "Can't find ReadMe template $README_TEMPLATE"
-fi
-  
 
 year=`date +%Y`
 shelf_mark=`get_value $metadata_file "SHELF_MARK"`
 recipient=`get_value $metadata_file "RECIPIENT"`
 shelf_mark_dir=`echo $shelf_mark | sed 's/  */_/g'`
+
+package_type=`get_value $INPUT_FILE "PACKAGE_TYPE" | tr 'A-Z' 'a-z'`
+if [ ! -n "$package_type" ]; then
+    error "Cannot create package without PACKAGE_TYPE input file(expected: scholar or archive)"
+elif [[ "$package_type" = 'scholar' ]] || [[ "$package_type" = 'archive' ]]
+then
+    message "PACKAGE_TYPE is $package_type"
+else
+    error "Bad PACKAGE_TYPE; expected: 'scholar', 'archive'; got: $package_type"
+fi
+
+README_TEMPLATE=$RESOURCE_DIR/01_ReadMe-${package_type}.md
+if [ -f $README_TEMPLATE ]; then
+  message "Using ReadMe template: $README_TEMPLATE"
+else
+  error "Can't find ReadMe template $README_TEMPLATE"
+fi
+
+
 staging_volume=$STAGING_VOLUME
 staging_dir=$STAGING_DIR
 
@@ -184,10 +192,10 @@ filelist_html=$PACKAGE_DIR/02_FileList.html
 filelist_txt=$PACKAGE_DIR/02_FileList.txt
 
 # delete the old file lists
-if [ -f $filelist_html ]; then 
+if [ -f $filelist_html ]; then
   rm $filelist_html
 fi
-if [ -f $filelist_txt ]; then 
+if [ -f $filelist_txt ]; then
   rm $filelist_txt
 fi
 
@@ -217,9 +225,9 @@ ls -R1 */* >> $filelist_tmp
 )
 root='./'
 while read line
-do 
+do
   if [ "$line" == "" ]; then
-    # blank line 
+    # blank line
     echo >> $filelist_md
   elif echo "$line" | grep ":$" >/dev/null 2>&1 ; then
     root=`echo $line | sed 's/:$//'`

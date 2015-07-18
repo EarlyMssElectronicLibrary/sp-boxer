@@ -9,7 +9,8 @@ The configuration file should have the following content:
 
       STAGING_VOLUME=/Volumes/SPP-Staging
       STAGING_DIR=Scholar-Packages
-      REPO_VOLUME=/Volumes/SPP-REPOSITORY-1
+      CAPTURE_REPO_VOLUME=/Volumes/SPP-REPOSITORY-1
+      PROCESSED_REPO_VOLUME=/Volumes/SPP-REPOSITORY-2
       REPO_DIR=Repository
       PACKAGE_INFO=PACKAGE_INFO.txt
 
@@ -17,7 +18,7 @@ The configuration file should have the following content:
 * Read in instructions:
 
 STAGE_DIR
-REPO_VOLUME
+PROCESSED_REPO_VOLUME
 
 MANUSRIPT_NAME
 
@@ -61,17 +62,10 @@ usage() {
    echo ""
 }
 
-get_value() {
-  gv_file=$1
-  gv_var=$2
-  gv_line=`grep "^$gv_var" $gv_file 2>&1`
-  echo "$gv_line" | sed "s/^$gv_var[	 ][	 ]*//"
-}
-
 ### VARIABLES
 date_cmd="date +%FT%T%z"
 JSON_TEMPLATE=`dirname $0`/../data/metadata_template.json
-if [ ! -f $JSON_TEMPLATE ]; then 
+if [ ! -f $JSON_TEMPLATE ]; then
   error "Cannot find $JSON_TEMPLATE"
 fi
 
@@ -79,7 +73,7 @@ fi
 while getopts ":hd:" opt; do
   case $opt in
     h)
-      usage 
+      usage
       help
       exit 1
       ;;
@@ -95,7 +89,7 @@ done
 shift $((OPTIND-1))
 
 ### THESCRIPT
-# grab input file and confirm it exists; 
+# grab input file and confirm it exists;
 INPUT_FILE=$1
 if [ -z "$INPUT_FILE" ]; then
   error "Please provide an INPUT_FILE"
@@ -106,7 +100,8 @@ fi
 # get the variables
 # STAGING_VOLUME=/Volumes/SPP-Staging1
 # STAGING_DIR=Scholar-Packages
-# REPO_VOLUME=/Volumes/SPP-Repo1
+# CAPTURE_REPO_VOLUME=/Volumes/SPP-REPOSITORY-1
+# PROCESSED_REPO_VOLUME=/Volumes/SPP-REPOSITORY-2
 # REPO_DIR=Repository
 # PACKAGE_INFO=PACKAGE_INFO.txt
 
@@ -134,17 +129,32 @@ if [ ! -n "$recipient_dir" ]; then
   recipient_dir="NO_RECIPIENT_SPECIFIED"
   warning "Using recipient directory: $recipient_dir"
 fi
+
+package_type=`get_value $INPUT_FILE "PACKAGE_TYPE"`
+if [ ! -n "$package_type" ]; then
+    error "Cannot create package without PACKAGE_TYPE input file (expected: scholar or archive)"
+fi
+
 staging_volume=$STAGING_VOLUME
 staging_dir=$STAGING_DIR
-repo_volume=$REPO_VOLUME
+processed_repo_volume=$PROCESSED_REPO_VOLUME
+capture_repo_volume=$CAPTURE_REPO_VOLUME
 repo_dir=$REPO_DIR
 
-# make sure we find the repository
-repository=$repo_volume/$repo_dir
-if [ -d $repository ]; then 
-  message "Using Repository $repository"
+# make sure we find the processed_repo
+processed_repo=$processed_repo_volume/$repo_dir
+if [ -d $processed_repo ]; then
+  message "Using processed image repository: $processed_repo"
 else
-  error "Repository not found $repository"
+  error "Processed image repository not found: $processed_repo"
+fi
+
+# make sure we find the capture_repo
+capture_repo=$capture_repo_volume/$repo_dir
+if [ -d $capture_repo ]; then
+    message "Using capture image repository: $capture_repo"
+else
+    error "Capture image repository not found: $capture_repo"
 fi
 
 # make sure the staging volume is there
@@ -162,7 +172,7 @@ copy_log=$staging/${shelf_mark_dir}_copy_`date +%Y%m%d-%H%M%S%z`.log
 package_dir=$staging/$shelf_mark_dir
 if [ -d $package_dir ]; then
   warning "Manuscript directory already exists: $package_dir"
-else 
+else
   message "Creating manuscript directory $package_dir"
   mkdir $package_dir
 fi
@@ -171,7 +181,7 @@ message "Using manuscript directory: $package_dir"
 data_dir=$package_dir/Data
 if [ -d $data_dir ]; then
   warning "Data directory already exists: $data_dir"
-else 
+else
   message "Creating Data directory $data_dir"
   mkdir $data_dir
 fi
@@ -180,7 +190,7 @@ message "Using Data directory: $data_dir"
 contrib_dir=$package_dir/ResearchContrib
 if [ -d $contrib_dir ]; then
   warning "ResearchContrib directory already exists: $contrib_dir"
-else 
+else
   message "Creating ResearchContrib directory $contrib_dir"
   mkdir $contrib_dir
 fi
@@ -189,7 +199,7 @@ message "Using ResearchContrib directory: $contrib_dir"
 contrib_data_dir=$contrib_dir/Data
 if [ -d $contrib_data_dir ]; then
   warning "ResearchContrib/Data directory already exists: $contrib_data_dir"
-else 
+else
   message "Creating ResearchContrib/Data directory $contrib_data_dir"
   mkdir $contrib_data_dir
 fi
@@ -202,66 +212,141 @@ do
   seq_dir=$data_dir/$seq
   if [ -d $seq_dir ]; then
     warning "Sequence directory already exists: $seq_dir"
-  else 
+  else
     message "Creating sequence directory $seq_dir"
     mkdir $seq_dir
   fi
 done < $seq_dirs
 
+metadata_tmp=$tmp.3
 # copy the files
 # PICK source new_name
-pick_list=$tmp.2
-metadata_tmp=$tmp.3
-grep "^PICK" $INPUT_FILE | awk '{ print $2 " " $3 }' > $pick_list
-count=0
-total=`wc -l $pick_list | awk '{ print $1 }'`
-width=6
-while read pick
-do
-  count=$(( $count + 1 ))
-  counter=`printf "%${width}d/%d" $count $total`
-  source=$repository/`echo $pick | awk '{ print $1 }'`
-  dest=$data_dir/`echo $pick | awk '{ print $2 }'`
+if grep -q "^PICK" $INPUT_FILE 2>/dev/null; then
+  pick_list=$tmp.2
+  grep "^PICK" $INPUT_FILE | awk '{ print $2 " " $3 }' > $pick_list
+  count=0
+  total=`wc -l $pick_list | awk '{ print $1 }'`
+  width=6
+  while read pick
+  do
+    count=$(( $count + 1 ))
+    counter=`printf "%${width}d/%d" $count $total`
+    source=$processed_repo/`echo $pick | awk '{ print $1 }'`
+    dest=$data_dir/`echo $pick | awk '{ print $2 }'`
 
-  if [ -f $dest ]; then
-    warning "$counter  `$date_cmd`  CORE DATA FILE EXISTS SKIPPING  `basename $dest`"
-  else
-    cp -v $source $dest >> $copy_log
-    message "$counter  `$date_cmd`  CORE DATA `basename $dest`"
-    # add the metadata
-    sed "s!SOURCE_FILE!${dest}!" $JSON_TEMPLATE > $metadata_tmp
-    exiftool -overwrite_original -j=$metadata_tmp $dest
-  fi
-done < $pick_list
+    if [ -f $dest ]; then
+      warning "$counter  `$date_cmd`  CORE DATA FILE EXISTS SKIPPING  `basename $dest`"
+    else
+      cp -v $source $dest >> $copy_log
+      if [[ $? -ne 0 ]]; then
+        fail "Error copying $source to $dest (full line: $pick)"
+      fi
+      message "$counter  `$date_cmd`  CORE DATA `basename $dest`"
+      # add the metadata
+      box-build-metadata $dest > $metadata_tmp
+      exiftool -overwrite_original -j=$metadata_tmp $dest
+      if [[ $dest =~ \.tif$ ]]; then
+        message "Generate XMP sidecar for $dest"
+        exiftool -TagsFromFile $dest $dest.xmp
+      fi
+    fi
+  done < $pick_list
+else
+  message "No PICK images found in $INPUT_FILE"
+fi
 
-contrib_list=$tmp.4
-grep "^CONTRIB" $INPUT_FILE | awk '{ print $2 " " $3 }' > $contrib_list
-count=0
-total=`wc -l $contrib_list | awk '{ print $1 }'`
-width=6
-while read contrib
-do
-  count=$(( $count + 1 ))
-  counter=`printf "%${width}d/%d" $count $total`
-  source=$repository/`echo $contrib | awk '{ print $1 }'`
-  dest=$contrib_data_dir/`echo $contrib | awk '{ print $2 }'`
+if grep -q "^CONTRIB" $INPUT_FILE 2>/dev/null; then
+  contrib_list=$tmp.4
+  grep "^CONTRIB" $INPUT_FILE | awk '{ print $2 " " $3 }' > $contrib_list
+  count=0
+  total=`wc -l $contrib_list | awk '{ print $1 }'`
+  width=6
+  while read contrib
+  do
+    count=$(( $count + 1 ))
+    counter=`printf "%${width}d/%d" $count $total`
+    source=$processed_repo/`echo $contrib | awk '{ print $1 }'`
+    dest=$contrib_data_dir/`echo $contrib | awk '{ print $2 }'`
 
-  dest_dir=`dirname $dest`
-  if [ ! -d $dest_dir ]; then
-    message "Creating $dest_dir"
-    mkdir $dest_dir
-  fi
+    dest_dir=`dirname $dest`
+    if [ ! -d $dest_dir ]; then
+      message "Creating $dest_dir"
+      mkdir $dest_dir
+      if [[ $? -ne 0 ]]; then
+        fail "Error creating directory $dest_dir (full line: $contrib)"
+      fi
+    fi
 
-  if [ -f $dest ]; then
-    warning "$counter  `$date_cmd`  CONTRIB FILE EXISTS SKIPPING  `basename $dest`"
-  else
-    cp -v $source $dest >> $copy_log
-    message "$counter  `$date_cmd`  CONTRIB  `basename $dest`"
-    # add the metadata
-    sed "s!SOURCE_FILE!${dest}!" $JSON_TEMPLATE > $metadata_tmp
-    exiftool -overwrite_original -j=$metadata_tmp $dest
-  fi
-done < $contrib_list
+    if [ -f $dest ]; then
+      warning "$counter  `$date_cmd`  CONTRIB FILE EXISTS SKIPPING  `basename $dest`"
+    else
+      cp -v $source $dest >> $copy_log
+      if [[ $? -ne 0 ]]; then
+        fail "Error copying $source to $dest (full line: $contrib)"
+      fi
+      message "$counter  `$date_cmd`  CONTRIB  `basename $dest`"
+      # add the metadata
+      box-build-metadata $dest > $metadata_tmp
+      exiftool -overwrite_original -j=$metadata_tmp $dest
+      if [[ $dest =~ \.tif$ ]]; then
+        message "Generate XMP sidecar for $dest"
+        exiftool -TagsFromFile $dest $dest.xmp
+      fi
+    fi
+  done < $contrib_list
+else
+  message "No CONTRIB images found in $INPUT_FILE"
+fi
+
+if grep -q "^CAPTURE" $INPUT_FILE 2>/dev/null; then
+  capture_list=$tmp.4
+  grep "^CAPTURE" $INPUT_FILE | awk '{ print $2 " " $3 }' > $capture_list
+  count=0
+  total=`wc -l $capture_list | awk '{ print $1 }'`
+  width=6
+  while read capture
+  do
+    count=$(( $count + 1 ))
+    counter=`printf "%${width}d/%d" $count $total`
+    source=$capture_repo/`echo $capture | awk '{ print $1 }'`
+    dest=$data_dir/`echo $capture | awk '{ print $2 }'`
+
+    dest_dir=`dirname $dest`
+    if [ ! -d $dest_dir ]; then
+      message "Creating $dest_dir"
+      mkdir $dest_dir
+      if [[ $? -ne 0 ]]; then
+        fail "Error creating directory $dest_dir (full line: $capture)"
+      fi
+    fi
+
+    if [ -f $dest ]; then
+      warning "$counter  `$date_cmd`  CAPTURE FILE EXISTS SKIPPING  `basename $dest`"
+    else
+      cp -v $source $dest >> $copy_log
+      if [[ $? -ne 0 ]]; then
+        fail "Error copying $source to $dest (full line: $capture)"
+      else
+        # capture JPEGs are thumbnails
+        if [[ $dest =~ \.jpg$ ]]; then
+          message "Generate thumbnail from $dest"
+          mogrify -resize %10 $dest
+        fi
+      fi
+      message "$counter  `$date_cmd`  CAPTURE  `basename $dest`"
+      # add the metadata
+      box-build-metadata $dest > $metadata_tmp
+      exiftool -overwrite_original -j=$metadata_tmp $dest
+      if [[ $dest =~ \.tif$ ]]; then
+        message "Generate XMP sidecar for $dest"
+        exiftool -TagsFromFile $dest $dest.xmp
+      fi
+    fi
+  done < $capture_list
+else
+  message "No CAPTURE images found in $INPUT_FILE"
+fi
+
 
 metadata_file=$package_dir/$PACKAGE_INFO
 echo "SHELF_MARK $shelf_mark" > $metadata_file

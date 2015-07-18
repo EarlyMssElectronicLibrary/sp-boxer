@@ -1,0 +1,63 @@
+#!/usr/bin/env ruby
+
+require 'getoptlong'
+require 'json'
+require 'yaml'
+require 'pp'
+
+require_relative 'environment'
+require 'sp-boxer'
+require_relative 'box-functions'
+
+include SPBoxer::CLIMessages
+
+
+COMMAND                  = File.basename(__FILE__)
+data_dir                 = File.expand_path '../../data', __FILE__
+
+imaging_setups_config    = File.join data_dir, 'imaging_setups.yml'
+shootlist_mapping_config = File.join data_dir, 'MAPPING_ShootList2ShotConfig.txt'
+metadata_template_json   = File.join data_dir, 'metadata_template.json'
+
+def usage
+  puts "Usage: #{COMMAND} [OPTIONS] IMAGE_FILE"
+end # def usage
+
+opts = GetoptLong.new(
+  [ '--help', '-h', GetoptLong::NO_ARGUMENT ]
+)
+
+opts.each do |opt, arg|
+  case opt
+    when '--help'
+      puts usage
+      puts "
+OPTIONS
+
+      -h, --help: show help
+
+Using IMAGE_FILE, construct the JSON metadata file for this image.
+
+"
+      exit 0
+  end
+end
+
+error COMMAND, "Wrong number of arguments"  unless ARGV.size == 1
+
+image_file = ARGV.shift
+
+SPBoxer.configure do |config|
+  config.shootlist_mapping = shootlist_mapping_config
+  config.imaging_setups    = imaging_setups_config
+end
+
+metadata = JSON.load(open(metadata_template_json))
+metadata[0]['SourceFile'] = image_file
+
+if SPBoxer.capture_image? image_file
+  shot_metadata = SPBoxer::Metadata.new.shot_metadata(image_file)
+  metadata[0].update shot_metadata
+end
+
+puts JSON.pretty_generate(metadata)

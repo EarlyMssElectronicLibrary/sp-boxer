@@ -1,0 +1,97 @@
+#!/usr/bin/env ruby
+
+require 'getoptlong'
+require 'json'
+require 'yaml'
+require 'pp'
+
+require_relative 'environment'
+require 'sp-boxer'
+require_relative 'box-functions'
+
+include SPBoxer::CLIMessages
+
+
+COMMAND                  = File.basename(__FILE__)
+data_dir                 = File.expand_path '../../data', __FILE__
+
+imaging_setups_config    = File.join data_dir, 'imaging_setups.yml'
+shootlist_mapping_config = File.join data_dir, 'MAPPING_ShootList2ShotConfig.txt'
+metadata_template_json   = File.join data_dir, 'metadata_template.json'
+
+def usage
+  puts "Usage: #{COMMAND} [OPTIONS] CAPTURE_FILE"
+end # def usage
+
+opts = GetoptLong.new(
+  [ '--help', '-h', GetoptLong::NO_ARGUMENT ],
+  [ '--verbose', '-v', GetoptLong::NO_ARGUMENT ]
+)
+
+verbose = false
+opts.each do |opt, arg|
+  case opt
+  when '--verbose'
+    verbose = true
+  when '--help'
+      puts usage
+      puts "
+OPTIONS
+
+      -h, --help: show help
+
+Report whether there is metadata for CAPTURE_FILE.
+
+"
+      exit 0
+  end
+end
+
+# error COMMAND, "Wrong number of arguments"  unless ARGV.size == 1
+
+# capture_file = ARGV.shift
+
+SPBoxer.configure do |config|
+  config.shootlist_mapping = shootlist_mapping_config
+  config.imaging_setups    = imaging_setups_config
+end
+
+status = nil
+
+boxer_md = SPBoxer::Metadata.new
+
+def check_image ctx
+  filename = ctx.filename
+  boxer_md = ctx.boxer_md
+  verbose  = !!ctx.verbose
+
+  if SPBoxer.capture_image? filename
+    begin
+      if boxer_md.has_metadata?(filename)
+        message COMMAND, "Found it: #{filename}" if verbose
+      else
+        status = 1
+      end
+    rescue Exception => ex
+      status = 2
+      error_no_exit COMMAND, ex.to_s
+      $stderr.puts ex.backtrace
+    end
+  else
+    $stderr.puts "Not a capture file: $filename"
+    status = 2
+  end
+end
+
+Context = Struct.new :boxer_md, :verbose, :filename
+ctx = Context.new boxer_md, verbose
+if ARGV[0]
+  ctx.filename = ARGV.shift
+  check_image ctx
+else
+  while $stdin.gets
+    ctx.filename = $_
+    check_image ctx
+  end
+end
+exit status if status
