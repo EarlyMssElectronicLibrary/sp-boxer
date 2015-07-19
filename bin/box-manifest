@@ -13,7 +13,8 @@ The configuration file should have the following content:
 
       STAGING_VOLUME=/Volumes/SPP-Staging
       STAGING_DIR=Scholar-Packages
-      REPO_VOLUME=/Volumes/SPP-REPOSITORY-1
+      CAPTURE_REPO_VOLUME_VOLUME=/Volumes/SPP-REPOSITORY-1
+      PROCESSED_REPO_VOLUME=/Volumes/SPP-REPOSITORY-2
       REPO_DIR=Repository
       PACKAGE_INFO=PACKAGE_INFO.txt
 
@@ -75,7 +76,7 @@ date_cmd="date +%FT%T%z"
 while getopts ":hd:" opt; do
   case $opt in
     h)
-      usage 
+      usage
       help
       exit 1
       ;;
@@ -164,7 +165,7 @@ do
   count=`printf "%${width}d" $curr`
   message "$count/$total  `$date_cmd`  $file"
 done < $file_list
-message "$count/$total `$date_cmd` $MANIFEST_FILE complete" 
+message "$count/$total `$date_cmd` $MANIFEST_FILE complete"
 
 if [ -f $PACKAGE_INFO ]; then
   message "Cleaning up; deleting $PACKAGE_INFO"
@@ -178,4 +179,3 @@ fi
 rm -f $tmp.?
 trap 0
 exit 0
-

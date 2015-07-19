@@ -9,10 +9,11 @@ The configuration file should have the following content:
 
       STAGING_VOLUME=/Volumes/SPP-Staging
       STAGING_DIR=Scholar-Packages
-      REPO_VOLUME=/Volumes/SPP-REPOSITORY-1
+      CAPTURE_REPO_VOLUME=/Volumes/SPP-REPOSITORY-1
+      PROCESSED_REPO_VOLUME=/Volumes/SPP-REPOSITORY-2
       REPO_DIR=Repository
       PACKAGE_INFO=PACKAGE_INFO.txt
-      
+
 EOF
 
 ### TEMPFILES
@@ -48,7 +49,7 @@ get_value() {
 ### VARIABLES
 date_cmd="date +%FT%T%z"
 JSON_TEMPLATE=`dirname $0`/../data/metadata_template.json
-if [ ! -f $JSON_TEMPLATE ]; then 
+if [ ! -f $JSON_TEMPLATE ]; then
   error "Cannot find $JSON_TEMPLATE"
 fi
 
@@ -56,7 +57,7 @@ fi
 while getopts ":hd:" opt; do
   case $opt in
     h)
-      usage 
+      usage
       help
       exit 1
       ;;
@@ -72,7 +73,7 @@ done
 shift $((OPTIND-1))
 
 ### THESCRIPT
-# grab input file and confirm it exists; 
+# grab input file and confirm it exists;
 INPUT_FILE=$1
 if [ -z "$INPUT_FILE" ]; then
   error "Please provide an INPUT_FILE"
@@ -83,7 +84,8 @@ fi
 # get the variables
 # STAGING_VOLUME=/Volumes/SPP-Staging1
 # STAGING_DIR=Scholar-Packages
-# REPO_VOLUME=/Volumes/SPP-Repo1
+# CAPTURE_REPO_VOLUME=/Volumes/SPP-REPOSITORY-1
+# PROCESSED_REPO_VOLUME=/Volumes/SPP-REPOSITORY-2
 # REPO_DIR=Repository
 # PACKAGE_INFO=PACKAGE_INFO.txt
 config_file=$HOME/.sp-boxer/conf
@@ -116,15 +118,15 @@ else
 fi
 staging_volume=$STAGING_VOLUME
 staging_dir=$STAGING_DIR
-repo_volume=$REPO_VOLUME
+processed_repo_volume=$PROCESSED_REPO_VOLUME
 repo_dir=$REPO_DIR
 
 # make sure we find the repository
-repository=$repo_volume/$repo_dir
-if [ -d $repository ]; then 
-  message "Using Repository $repository"
+processed_repo=$processed_repo_volume/$repo_dir
+if [ -d $processed_repo ]; then
+  message "Using processed image repository: $processed_repo"
 else
-  error "Repository not found $repository"
+  error "Processed image repository not found: $processed_repo"
 fi
 
 # make sure the staging volume is there
@@ -153,4 +155,3 @@ message "Yup. That's it."
 rm -f $tmp.?
 trap 0
 exit 0
-
