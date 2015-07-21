@@ -145,7 +145,7 @@ repo_dir=$REPO_DIR
 processed_repo=$processed_repo_volume/$repo_dir
 if [ -d $processed_repo ]; then
   message "Using processed image repository: $processed_repo"
-elsen
+else
   error "Processed image repository not found: $processed_repo"
 fi
 
