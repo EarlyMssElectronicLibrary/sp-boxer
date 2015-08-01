@@ -1,0 +1,5053 @@
+---
+Copystand 50MP Aux + Red:
+  MB365UV:
+    Symbol: MB365UV
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355.0-375.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  MB455RB:
+    Symbol: MB455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 442.5-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+  MB470LB:
+    Symbol: MB470LB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 457.5-482.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '470'
+    IMG_Illumination_Source_Wattage: '0.27'
+  MB505Cy:
+    Symbol: MB505Cy
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 490.0-520.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '505'
+    IMG_Illumination_Source_Wattage: '1.73'
+  MB535Gr:
+    Symbol: MB535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  MB570Am:
+    Symbol: MB570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  MB625Rd:
+    Symbol: MB625Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 612.5-637.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '625'
+    IMG_Illumination_Source_Wattage: '1.64'
+  MB700IR:
+    Symbol: MB700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '1.68'
+  MB735IR:
+    Symbol: MB735IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 717.5-752.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '735'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB780IR:
+    Symbol: MB780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB870IR:
+    Symbol: MB870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '5.60'
+  MB940IR:
+    Symbol: MB940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '1.07'
+  TX450RB:
+    Symbol: TX450RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 437.5-462.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '450'
+    IMG_Illumination_Source_Wattage: '3.80'
+  TX535Gr:
+    Symbol: TX535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  TX570Am:
+    Symbol: TX570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  TX635Rd:
+    Symbol: TX635Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 622.5-647.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '635'
+    IMG_Illumination_Source_Wattage: '1.64'
+  TX700IR:
+    Symbol: TX700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '0.24'
+  TX780IR:
+    Symbol: TX780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '0.32'
+  TX870IR:
+    Symbol: TX870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.30'
+  TX940IR:
+    Symbol: TX940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '0.18'
+  RE455RB:
+    Symbol: RE455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RE870IR:
+    Symbol: RE870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  RS455RB:
+    Symbol: RS455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RS870IR:
+    Symbol: RS870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  WBRBG58:
+    Symbol: WBRBG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Illumination_Aux_Wattage: '42.00'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBRBO22:
+    Symbol: WBRBO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Illumination_Aux_Wattage: '42.00'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVB47:
+    Symbol: WBUVB47
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  WBUVG58:
+    Symbol: WBUVG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBUVO22:
+    Symbol: WBUVO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVUVb:
+    Symbol: WBUVUVb
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 375-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+  WBUVUVP:
+    Symbol: WBUVUVP
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 325-375
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+    IMG_Acquisition_Filters: Baeder U
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Filter_Nominal_Pass_FWHM: '25'
+  WBRBR25:
+    Symbol: WBRBR25
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 590-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+  WBUVR25:
+    Symbol: WBUVR25
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 590-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+Copystand 50MP Aux:
+  MB365UV:
+    Symbol: MB365UV
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355.0-375.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  MB455RB:
+    Symbol: MB455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 442.5-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+  MB470LB:
+    Symbol: MB470LB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 457.5-482.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '470'
+    IMG_Illumination_Source_Wattage: '0.27'
+  MB505Cy:
+    Symbol: MB505Cy
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 490.0-520.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '505'
+    IMG_Illumination_Source_Wattage: '1.73'
+  MB535Gr:
+    Symbol: MB535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  MB570Am:
+    Symbol: MB570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  MB625Rd:
+    Symbol: MB625Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 612.5-637.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '625'
+    IMG_Illumination_Source_Wattage: '1.64'
+  MB700IR:
+    Symbol: MB700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '1.68'
+  MB735IR:
+    Symbol: MB735IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 717.5-752.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '735'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB780IR:
+    Symbol: MB780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB870IR:
+    Symbol: MB870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '5.60'
+  MB940IR:
+    Symbol: MB940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '1.07'
+  TX450RB:
+    Symbol: TX450RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 437.5-462.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '450'
+    IMG_Illumination_Source_Wattage: '3.80'
+  TX535Gr:
+    Symbol: TX535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  TX570Am:
+    Symbol: TX570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  TX635Rd:
+    Symbol: TX635Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 622.5-647.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '635'
+    IMG_Illumination_Source_Wattage: '1.64'
+  TX700IR:
+    Symbol: TX700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '0.24'
+  TX780IR:
+    Symbol: TX780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '0.32'
+  TX870IR:
+    Symbol: TX870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.30'
+  TX940IR:
+    Symbol: TX940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '0.18'
+  RE455RB:
+    Symbol: RE455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RE870IR:
+    Symbol: RE870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  RS455RB:
+    Symbol: RS455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RS870IR:
+    Symbol: RS870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  WBRBG58:
+    Symbol: WBRBG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBRBO22:
+    Symbol: WBRBO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVB47:
+    Symbol: WBUVB47
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  WBUVG58:
+    Symbol: WBUVG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBUVO22:
+    Symbol: WBUVO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVUVb:
+    Symbol: WBUVUVb
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 375-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  WBUVUVP:
+    Symbol: WBUVUVP
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 325-375
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: Baeder U
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Filter_Nominal_Pass_FWHM: '25'
+Copystand 50MP:
+  MB365UV:
+    Symbol: MB365UV
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355.0-375.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  MB455RB:
+    Symbol: MB455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 442.5-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+  MB470LB:
+    Symbol: MB470LB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 457.5-482.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '470'
+    IMG_Illumination_Source_Wattage: '0.27'
+  MB505Cy:
+    Symbol: MB505Cy
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 490.0-520.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '505'
+    IMG_Illumination_Source_Wattage: '1.73'
+  MB535Gr:
+    Symbol: MB535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  MB570Am:
+    Symbol: MB570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  MB625Rd:
+    Symbol: MB625Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 612.5-637.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '625'
+    IMG_Illumination_Source_Wattage: '1.64'
+  MB700IR:
+    Symbol: MB700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '1.68'
+  MB735IR:
+    Symbol: MB735IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 717.5-752.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '735'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB780IR:
+    Symbol: MB780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB870IR:
+    Symbol: MB870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '5.60'
+  MB940IR:
+    Symbol: MB940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '1.07'
+  TX450RB:
+    Symbol: TX450RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 437.5-462.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '450'
+    IMG_Illumination_Source_Wattage: '3.80'
+  TX535Gr:
+    Symbol: TX535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  TX570Am:
+    Symbol: TX570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  TX635Rd:
+    Symbol: TX635Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 622.5-647.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '635'
+    IMG_Illumination_Source_Wattage: '1.64'
+  TX700IR:
+    Symbol: TX700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '0.24'
+  TX780IR:
+    Symbol: TX780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '0.32'
+  TX870IR:
+    Symbol: TX870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.30'
+  TX940IR:
+    Symbol: TX940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '0.18'
+  RE455RB:
+    Symbol: RE455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RE870IR:
+    Symbol: RE870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  RS455RB:
+    Symbol: RS455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RS870IR:
+    Symbol: RS870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  WBRBG58:
+    Symbol: WBRBG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBRBO22:
+    Symbol: WBRBO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVB47:
+    Symbol: WBUVB47
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  WBUVG58:
+    Symbol: WBUVG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBUVO22:
+    Symbol: WBUVO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVUVb:
+    Symbol: WBUVUVb
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 375-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  WBUVUVP:
+    Symbol: WBUVUVP
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 325-375
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: Baeder U
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Filter_Nominal_Pass_FWHM: '25'
+Copystand E6 Red:
+  MB365UV:
+    Symbol: MB365UV
+    Alternate Symbol: MB365UV_001
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355.0-375.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  MB365UV_001:
+    Symbol: MB365UV
+    Alternate Symbol: MB365UV_001
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355.0-375.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  MB455RB:
+    Symbol: MB455RB
+    Alternate Symbol: MB455RB_002
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 442.5-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+  MB455RB_002:
+    Symbol: MB455RB
+    Alternate Symbol: MB455RB_002
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 442.5-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+  MB470LB:
+    Symbol: MB470LB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 457.5-482.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '470'
+    IMG_Illumination_Source_Wattage: '0.27'
+  MB505Cy:
+    Symbol: MB505Cy
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 490.0-520.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '505'
+    IMG_Illumination_Source_Wattage: '1.73'
+  MB535Gr:
+    Symbol: MB535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  MB570Am:
+    Symbol: MB570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  MB625Rd:
+    Symbol: MB625Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 612.5-637.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '625'
+    IMG_Illumination_Source_Wattage: '1.64'
+  MB700IR:
+    Symbol: MB700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '1.68'
+  MB735IR:
+    Symbol: MB735IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 717.5-752.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '735'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB780IR:
+    Symbol: MB780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB870IR:
+    Symbol: MB870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '5.60'
+  MB940IR:
+    Symbol: MB940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '1.07'
+  TX450RB:
+    Symbol: TX450RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 437.5-462.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '450'
+    IMG_Illumination_Source_Wattage: '3.80'
+  TX535Gr:
+    Symbol: TX535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  TX570Am:
+    Symbol: TX570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  TX635Rd:
+    Symbol: TX635Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 622.5-647.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '635'
+    IMG_Illumination_Source_Wattage: '1.64'
+  TX700IR:
+    Symbol: TX700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '0.24'
+  TX780IR:
+    Symbol: TX780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '0.32'
+  TX870IR:
+    Symbol: TX870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.30'
+  TX940IR:
+    Symbol: TX940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '0.18'
+  RE455RB:
+    Symbol: RE455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RE870IR:
+    Symbol: RE870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  RS455RB:
+    Symbol: RS455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RS870IR:
+    Symbol: RS870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  WBRBG61:
+    Symbol: WBRBG61
+    Alternate Symbol: MB455RB_021
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: G61
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  MB455RB_021:
+    Symbol: WBRBG61
+    Alternate Symbol: MB455RB_021
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: G61
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBRBB47:
+    Symbol: WBRBB47
+    Alternate Symbol: MB455RB_022
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  MB455RB_022:
+    Symbol: WBRBB47
+    Alternate Symbol: MB455RB_022
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  WBRBR25:
+    Symbol: WBRBR25
+    Alternate Symbol: MB455RB_020
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 590-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+  MB455RB_020:
+    Symbol: WBRBR25
+    Alternate Symbol: MB455RB_020
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 590-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+  WBUVB47:
+    Symbol: WBUVB47
+    Alternate Symbol: MB365UV_019
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  MB365UV_019:
+    Symbol: WBUVB47
+    Alternate Symbol: MB365UV_019
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  WBUVG61:
+    Symbol: WBUVG61
+    Alternate Symbol: MB365UV_018
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: G61
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  MB365UV_018:
+    Symbol: WBUVG61
+    Alternate Symbol: MB365UV_018
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: G61
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBUVR25:
+    Symbol: WBUVR25
+    Alternate Symbol: MB365UV_017
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 595-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+  MB365UV_017:
+    Symbol: WBUVR25
+    Alternate Symbol: MB365UV_017
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 595-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+  WBUVUVP:
+    Symbol: WBUVUVP
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 325-375
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: Baeder U
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Filter_Nominal_Pass_FWHM: '25'
+  MBUVRB:
+    Symbol: MBUVRB
+    Alternate Symbol: MBUV-RB_024
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: 365, 455
+    IMG_Illumination_Source_Wattage: '7.80'
+  MBUV-RB_024:
+    Symbol: MBUVRB
+    Alternate Symbol: MBUV-RB_024
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: 365, 455
+    IMG_Illumination_Source_Wattage: '7.80'
+Copystand E6:
+  MB365UV:
+    Symbol: MB365UV
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355.0-375.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  MB455RB:
+    Symbol: MB455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 442.5-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+  MB470LB:
+    Symbol: MB470LB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 457.5-482.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '470'
+    IMG_Illumination_Source_Wattage: '0.27'
+  MB505Cy:
+    Symbol: MB505Cy
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 490.0-520.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '505'
+    IMG_Illumination_Source_Wattage: '1.73'
+  MB535Gr:
+    Symbol: MB535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  MB570Am:
+    Symbol: MB570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  MB625Rd:
+    Symbol: MB625Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 612.5-637.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '625'
+    IMG_Illumination_Source_Wattage: '1.64'
+  MB700IR:
+    Symbol: MB700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '1.68'
+  MB735IR:
+    Symbol: MB735IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 717.5-752.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '735'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB780IR:
+    Symbol: MB780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB870IR:
+    Symbol: MB870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '5.60'
+  MB940IR:
+    Symbol: MB940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '1.07'
+  TX450RB:
+    Symbol: TX450RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 437.5-462.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '450'
+    IMG_Illumination_Source_Wattage: '3.80'
+  TX535Gr:
+    Symbol: TX535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  TX570Am:
+    Symbol: TX570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  TX635Rd:
+    Symbol: TX635Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 622.5-647.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '635'
+    IMG_Illumination_Source_Wattage: '1.64'
+  TX700IR:
+    Symbol: TX700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '0.24'
+  TX780IR:
+    Symbol: TX780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '0.32'
+  TX870IR:
+    Symbol: TX870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.30'
+  TX940IR:
+    Symbol: TX940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '0.18'
+  RE455RB:
+    Symbol: RE455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RE870IR:
+    Symbol: RE870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  RS455RB:
+    Symbol: RS455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RS870IR:
+    Symbol: RS870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  WBRBG58:
+    Symbol: WBRBG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBRBO22:
+    Symbol: WBRBO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVB47:
+    Symbol: WBUVB47
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  WBUVG58:
+    Symbol: WBUVG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBUVO22:
+    Symbol: WBUVO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVUVb:
+    Symbol: WBUVUVb
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 375-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  WBUVUVP:
+    Symbol: WBUVUVP
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 325-375
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: Baeder U
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Filter_Nominal_Pass_FWHM: '25'
+Cradle 50MP Aux + Red:
+  MB365UV:
+    Symbol: MB365UV
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355.0-375.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  MB455RB:
+    Symbol: MB455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 442.5-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+  MB470LB:
+    Symbol: MB470LB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 457.5-482.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '470'
+    IMG_Illumination_Source_Wattage: '0.27'
+  MB505Cy:
+    Symbol: MB505Cy
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 490.0-520.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '505'
+    IMG_Illumination_Source_Wattage: '1.73'
+  MB535Gr:
+    Symbol: MB535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  MB570Am:
+    Symbol: MB570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  MB625Rd:
+    Symbol: MB625Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 612.5-637.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '625'
+    IMG_Illumination_Source_Wattage: '1.64'
+  MB700IR:
+    Symbol: MB700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '1.68'
+  MB735IR:
+    Symbol: MB735IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 717.5-752.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '735'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB780IR:
+    Symbol: MB780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB870IR:
+    Symbol: MB870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '5.60'
+  MB940IR:
+    Symbol: MB940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '1.07'
+  TX450RB:
+    Symbol: TX450RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 437.5-462.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '450'
+    IMG_Illumination_Source_Wattage: '1.90'
+  TX535Gr:
+    Symbol: TX535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.38'
+  TX570Am:
+    Symbol: TX570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.22'
+  TX635Rd:
+    Symbol: TX635Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 622.5-647.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '635'
+    IMG_Illumination_Source_Wattage: '0.82'
+  TX700IR:
+    Symbol: TX700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '0.12'
+  TX780IR:
+    Symbol: TX780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '0.16'
+  TX870IR:
+    Symbol: TX870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.15'
+  TX940IR:
+    Symbol: TX940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '0.09'
+  RE455RB:
+    Symbol: RE455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RE870IR:
+    Symbol: RE870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  RS455RB:
+    Symbol: RS455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RS870IR:
+    Symbol: RS870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  WBRBG58:
+    Symbol: WBRBG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Illumination_Aux_Wattage: '42.00'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBRBO22:
+    Symbol: WBRBO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Illumination_Aux_Wattage: '42.00'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVB47:
+    Symbol: WBUVB47
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  WBUVG58:
+    Symbol: WBUVG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBUVO22:
+    Symbol: WBUVO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVUVb:
+    Symbol: WBUVUVb
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 375-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+  WBUVUVP:
+    Symbol: WBUVUVP
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 325-375
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+    IMG_Acquisition_Filters: Baeder U
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Filter_Nominal_Pass_FWHM: '25'
+  WBRBR25:
+    Symbol: WBRBR25
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 590-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Illumination_Aux_Wattage: '44.00'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+  WBUVR25:
+    Symbol: WBUVR25
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 590-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+Cradle 50MP Aux:
+  MB365UV:
+    Symbol: MB365UV
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355.0-375.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  MB455RB:
+    Symbol: MB455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 442.5-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+  MB470LB:
+    Symbol: MB470LB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 457.5-482.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '470'
+    IMG_Illumination_Source_Wattage: '0.27'
+  MB505Cy:
+    Symbol: MB505Cy
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 490.0-520.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '505'
+    IMG_Illumination_Source_Wattage: '1.73'
+  MB535Gr:
+    Symbol: MB535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  MB570Am:
+    Symbol: MB570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  MB625Rd:
+    Symbol: MB625Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 612.5-637.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '625'
+    IMG_Illumination_Source_Wattage: '1.64'
+  MB700IR:
+    Symbol: MB700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '1.68'
+  MB735IR:
+    Symbol: MB735IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 717.5-752.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '735'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB780IR:
+    Symbol: MB780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB870IR:
+    Symbol: MB870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '5.60'
+  MB940IR:
+    Symbol: MB940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '1.07'
+  TX450RB:
+    Symbol: TX450RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 437.5-462.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '450'
+    IMG_Illumination_Source_Wattage: '1.90'
+  TX535Gr:
+    Symbol: TX535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.38'
+  TX570Am:
+    Symbol: TX570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.22'
+  TX635Rd:
+    Symbol: TX635Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 622.5-647.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '635'
+    IMG_Illumination_Source_Wattage: '0.82'
+  TX700IR:
+    Symbol: TX700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '0.12'
+  TX780IR:
+    Symbol: TX780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '0.16'
+  TX870IR:
+    Symbol: TX870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.15'
+  TX940IR:
+    Symbol: TX940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '0.09'
+  RE455RB:
+    Symbol: RE455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RE870IR:
+    Symbol: RE870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  RS455RB:
+    Symbol: RS455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RS870IR:
+    Symbol: RS870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  WBRBG58:
+    Symbol: WBRBG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Illumination_Aux_Wattage: '42.00'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBRBO22:
+    Symbol: WBRBO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Illumination_Aux_Wattage: '42.00'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVB47:
+    Symbol: WBUVB47
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  WBUVG58:
+    Symbol: WBUVG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBUVO22:
+    Symbol: WBUVO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVUVb:
+    Symbol: WBUVUVb
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 375-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+  WBUVUVP:
+    Symbol: WBUVUVP
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 325-375
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '4'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Illumination_Aux_Wattage: '44.00'
+    IMG_Acquisition_Filters: Baeder U
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Filter_Nominal_Pass_FWHM: '25'
+Cradle 50MP:
+  MB365UV:
+    Symbol: MB365UV
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355.0-375.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  MB455RB:
+    Symbol: MB455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 442.5-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+  MB470LB:
+    Symbol: MB470LB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 457.5-482.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '470'
+    IMG_Illumination_Source_Wattage: '0.27'
+  MB505Cy:
+    Symbol: MB505Cy
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 490.0-520.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '505'
+    IMG_Illumination_Source_Wattage: '1.73'
+  MB535Gr:
+    Symbol: MB535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  MB570Am:
+    Symbol: MB570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  MB625Rd:
+    Symbol: MB625Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 612.5-637.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '625'
+    IMG_Illumination_Source_Wattage: '1.64'
+  MB700IR:
+    Symbol: MB700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '1.68'
+  MB735IR:
+    Symbol: MB735IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 717.5-752.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '735'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB780IR:
+    Symbol: MB780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB870IR:
+    Symbol: MB870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '5.60'
+  MB940IR:
+    Symbol: MB940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '1.07'
+  TX450RB:
+    Symbol: TX450RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 437.5-462.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '450'
+    IMG_Illumination_Source_Wattage: '1.90'
+  TX535Gr:
+    Symbol: TX535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.38'
+  TX570Am:
+    Symbol: TX570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.22'
+  TX635Rd:
+    Symbol: TX635Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 622.5-647.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '635'
+    IMG_Illumination_Source_Wattage: '0.82'
+  TX700IR:
+    Symbol: TX700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '0.12'
+  TX780IR:
+    Symbol: TX780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '0.16'
+  TX870IR:
+    Symbol: TX870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.15'
+  TX940IR:
+    Symbol: TX940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '0.09'
+  RE455RB:
+    Symbol: RE455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RE870IR:
+    Symbol: RE870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  RS455RB:
+    Symbol: RS455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RS870IR:
+    Symbol: RS870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  WBRBG58:
+    Symbol: WBRBG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBRBO22:
+    Symbol: WBRBO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVB47:
+    Symbol: WBUVB47
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  WBUVG58:
+    Symbol: WBUVG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBUVO22:
+    Symbol: WBUVO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVUVb:
+    Symbol: WBUVUVb
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 375-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  WBUVUVP:
+    Symbol: WBUVUVP
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E7
+    IMG_Sensor: Kodak KAF-50100 CCD
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 325-375
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: Baeder U
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Filter_Nominal_Pass_FWHM: '25'
+Cradle E6 Red NoTX:
+  MB365UV:
+    Symbol: MB365UV
+    Alternate Symbol: MB365UV_001
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355.0-375.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  MB365UV_001:
+    Symbol: MB365UV
+    Alternate Symbol: MB365UV_001
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355.0-375.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  MB455RB:
+    Symbol: MB455RB
+    Alternate Symbol: MB455RB_002
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 442.5-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+  MB455RB_002:
+    Symbol: MB455RB
+    Alternate Symbol: MB455RB_002
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 442.5-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+  MB470LB:
+    Symbol: MB470LB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 457.5-482.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '470'
+    IMG_Illumination_Source_Wattage: '0.27'
+  MB505Cy:
+    Symbol: MB505Cy
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 490.0-520.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '505'
+    IMG_Illumination_Source_Wattage: '1.73'
+  MB535Gr:
+    Symbol: MB535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  MB570Am:
+    Symbol: MB570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  MB625Rd:
+    Symbol: MB625Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 612.5-637.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '625'
+    IMG_Illumination_Source_Wattage: '1.64'
+  MB700IR:
+    Symbol: MB700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '1.68'
+  MB735IR:
+    Symbol: MB735IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 717.5-752.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '735'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB780IR:
+    Symbol: MB780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB870IR:
+    Symbol: MB870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '5.60'
+  MB940IR:
+    Symbol: MB940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '1.07'
+  RE455RB:
+    Symbol: RE455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RE870IR:
+    Symbol: RE870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  RS455RB:
+    Symbol: RS455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RS870IR:
+    Symbol: RS870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  WBRBG61:
+    Symbol: WBRBG61
+    Alternate Symbol: MB455RB_021
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: G61
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  MB455RB_021:
+    Symbol: WBRBG61
+    Alternate Symbol: MB455RB_021
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: G61
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBRBB47:
+    Symbol: WBRBB47
+    Alternate Symbol: MB455RB_022
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  MB455RB_022:
+    Symbol: WBRBB47
+    Alternate Symbol: MB455RB_022
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  WBRBR25:
+    Symbol: WBRBR25
+    Alternate Symbol: MB455RB_020
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 590-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+  MB455RB_020:
+    Symbol: WBRBR25
+    Alternate Symbol: MB455RB_020
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 590-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+  WBUVB47:
+    Symbol: WBUVB47
+    Alternate Symbol: MB365UV_019
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  MB365UV_019:
+    Symbol: WBUVB47
+    Alternate Symbol: MB365UV_019
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  WBUVG61:
+    Symbol: WBUVG61
+    Alternate Symbol: MB365UV_018
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: G61
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  MB365UV_018:
+    Symbol: WBUVG61
+    Alternate Symbol: MB365UV_018
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: G61
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBUVR25:
+    Symbol: WBUVR25
+    Alternate Symbol: MB365UV_017
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 595-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+  MB365UV_017:
+    Symbol: WBUVR25
+    Alternate Symbol: MB365UV_017
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 595-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+  WBUVUVP:
+    Symbol: WBUVUVP
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 325-375
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: Baeder U
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Filter_Nominal_Pass_FWHM: '25'
+  MBUVRB:
+    Symbol: MBUVRB
+    Alternate Symbol: MBUV-RB_024
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: 365, 455
+    IMG_Illumination_Source_Wattage: '7.80'
+  MBUV-RB_024:
+    Symbol: MBUVRB
+    Alternate Symbol: MBUV-RB_024
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: 365, 455
+    IMG_Illumination_Source_Wattage: '7.80'
+Cradle E6 Red:
+  MB365UV:
+    Symbol: MB365UV
+    Alternate Symbol: MB365UV_001
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355.0-375.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  MB365UV_001:
+    Symbol: MB365UV
+    Alternate Symbol: MB365UV_001
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355.0-375.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  MB455RB:
+    Symbol: MB455RB
+    Alternate Symbol: MB455RB_002
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 442.5-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+  MB455RB_002:
+    Symbol: MB455RB
+    Alternate Symbol: MB455RB_002
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 442.5-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+  MB470LB:
+    Symbol: MB470LB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 457.5-482.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '470'
+    IMG_Illumination_Source_Wattage: '0.27'
+  MB505Cy:
+    Symbol: MB505Cy
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 490.0-520.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '505'
+    IMG_Illumination_Source_Wattage: '1.73'
+  MB535Gr:
+    Symbol: MB535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  MB570Am:
+    Symbol: MB570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  MB625Rd:
+    Symbol: MB625Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 612.5-637.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '625'
+    IMG_Illumination_Source_Wattage: '1.64'
+  MB700IR:
+    Symbol: MB700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '1.68'
+  MB735IR:
+    Symbol: MB735IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 717.5-752.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '735'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB780IR:
+    Symbol: MB780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB870IR:
+    Symbol: MB870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '5.60'
+  MB940IR:
+    Symbol: MB940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '1.07'
+  TX450RB:
+    Symbol: TX450RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 437.5-462.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '450'
+    IMG_Illumination_Source_Wattage: '1.90'
+  TX535Gr:
+    Symbol: TX535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.38'
+  TX570Am:
+    Symbol: TX570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.22'
+  TX635Rd:
+    Symbol: TX635Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 622.5-647.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '635'
+    IMG_Illumination_Source_Wattage: '0.82'
+  TX700IR:
+    Symbol: TX700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '0.12'
+  TX780IR:
+    Symbol: TX780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '0.16'
+  TX870IR:
+    Symbol: TX870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.15'
+  TX940IR:
+    Symbol: TX940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '0.09'
+  RE455RB:
+    Symbol: RE455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RE870IR:
+    Symbol: RE870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  RS455RB:
+    Symbol: RS455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RS870IR:
+    Symbol: RS870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  WBRBG61:
+    Symbol: WBRBG61
+    Alternate Symbol: MB455RB_021
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: G61
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  MB455RB_021:
+    Symbol: WBRBG61
+    Alternate Symbol: MB455RB_021
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: G61
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBRBB47:
+    Symbol: WBRBB47
+    Alternate Symbol: MB455RB_022
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  MB455RB_022:
+    Symbol: WBRBB47
+    Alternate Symbol: MB455RB_022
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  WBRBR25:
+    Symbol: WBRBR25
+    Alternate Symbol: MB455RB_020
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 590-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+  MB455RB_020:
+    Symbol: WBRBR25
+    Alternate Symbol: MB455RB_020
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 590-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+  WBUVB47:
+    Symbol: WBUVB47
+    Alternate Symbol: MB365UV_019
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  MB365UV_019:
+    Symbol: WBUVB47
+    Alternate Symbol: MB365UV_019
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  WBUVG61:
+    Symbol: WBUVG61
+    Alternate Symbol: MB365UV_018
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: G61
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  MB365UV_018:
+    Symbol: WBUVG61
+    Alternate Symbol: MB365UV_018
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: G61
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBUVR25:
+    Symbol: WBUVR25
+    Alternate Symbol: MB365UV_017
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 595-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+  MB365UV_017:
+    Symbol: WBUVR25
+    Alternate Symbol: MB365UV_017
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 595-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: R25
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+  WBUVUVP:
+    Symbol: WBUVUVP
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 325-375
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: Baeder U
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Filter_Nominal_Pass_FWHM: '25'
+  MBUVRB:
+    Symbol: MBUVRB
+    Alternate Symbol: MBUV-RB_024
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: 365, 455
+    IMG_Illumination_Source_Wattage: '7.80'
+  MBUV-RB_024:
+    Symbol: MBUVRB
+    Alternate Symbol: MBUV-RB_024
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Schneider Kreuznach
+    IMG_Lens_model: f/5.6 APO-DIGI
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: 365, 455
+    IMG_Illumination_Source_Wattage: '7.80'
+Cradle E6:
+  MB365UV:
+    Symbol: MB365UV
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 355.0-375.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  MB455RB:
+    Symbol: MB455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 442.5-467.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+  MB470LB:
+    Symbol: MB470LB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 457.5-482.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '470'
+    IMG_Illumination_Source_Wattage: '0.27'
+  MB505Cy:
+    Symbol: MB505Cy
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 490.0-520.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '505'
+    IMG_Illumination_Source_Wattage: '1.73'
+  MB535Gr:
+    Symbol: MB535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.77'
+  MB570Am:
+    Symbol: MB570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.43'
+  MB625Rd:
+    Symbol: MB625Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 612.5-637.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '625'
+    IMG_Illumination_Source_Wattage: '1.64'
+  MB700IR:
+    Symbol: MB700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '1.68'
+  MB735IR:
+    Symbol: MB735IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 717.5-752.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '735'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB780IR:
+    Symbol: MB780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '4.67'
+  MB870IR:
+    Symbol: MB870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '5.60'
+  MB940IR:
+    Symbol: MB940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '1.07'
+  TX450RB:
+    Symbol: TX450RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 437.5-462.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '450'
+    IMG_Illumination_Source_Wattage: '1.90'
+  TX535Gr:
+    Symbol: TX535Gr
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 517.5-552.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '535'
+    IMG_Illumination_Source_Wattage: '0.38'
+  TX570Am:
+    Symbol: TX570Am
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560.0-580.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '570'
+    IMG_Illumination_Source_Wattage: '0.22'
+  TX635Rd:
+    Symbol: TX635Rd
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 622.5-647.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '635'
+    IMG_Illumination_Source_Wattage: '0.82'
+  TX700IR:
+    Symbol: TX700IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 682.5-717.5
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '700'
+    IMG_Illumination_Source_Wattage: '0.12'
+  TX780IR:
+    Symbol: TX780IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 765.0-795.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '780'
+    IMG_Illumination_Source_Wattage: '0.16'
+  TX870IR:
+    Symbol: TX870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 850.0-890.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.15'
+  TX940IR:
+    Symbol: TX940IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 915.0-965.0
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '940'
+    IMG_Illumination_Source_Wattage: '0.09'
+  RE455RB:
+    Symbol: RE455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RE870IR:
+    Symbol: RE870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  RS455RB:
+    Symbol: RS455RB
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 430-480
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '0.27'
+  RS870IR:
+    Symbol: RS870IR
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 845-895
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '1'
+    IMG_Illumination_Wavelength: '870'
+    IMG_Illumination_Source_Wattage: '0.80'
+  WBRBG58:
+    Symbol: WBRBG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBRBO22:
+    Symbol: WBRBO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '455'
+    IMG_Illumination_Source_Wattage: '3.80'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVB47:
+    Symbol: WBUVB47
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 410-480, 750-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: B47
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+  WBUVG58:
+    Symbol: WBUVG58
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 500-540,760-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: G58
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+  WBUVO22:
+    Symbol: WBUVO22
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 560-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: O22
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+  WBUVUVb:
+    Symbol: WBUVUVb
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 375-1100
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+  WBUVUVP:
+    Symbol: WBUVUVP
+    IMG_Imaging_Device_Make: MegaVision
+    IMG_Imaging_Device_Model: E6
+    IMG_Sensor: E6-mono
+    IMG_Lens_Brand: Megavision
+    IMG_Lens_model: f/4.5 Macro UV-IR Apochromat
+    IMG_Lens_Size_mm: '120'
+    IMG_Spectral_Range: 325-375
+    IMG_Sensor_Spectral_Range: 300-1100
+    IMG_Illumination_Source_Number: '2'
+    IMG_Illumination_Wavelength: '365'
+    IMG_Illumination_Source_Wattage: '4.00'
+    IMG_Acquisition_Filters: Baeder U
+    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Filter_Nominal_Pass_FWHM: '25'
