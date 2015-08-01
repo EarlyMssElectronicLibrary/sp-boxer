@@ -1,0 +1,82 @@
+0016	Copystand E6 Red
+0015	Cradle E6 Red
+0012	Cradle E6 Red NoTX
+0011	Cradle E6 Red
+0021	Copystand E6 Red
+0020	Copystand E6 Red
+0013	Cradle E6 Red
+0014	Cradle E6 Red
+0028	Cradle E6
+0030	Cradle E6
+0023	Cradle E6
+0024	Cradle E6
+0027	Cradle E6
+0025	Cradle E6
+0029	Cradle E6
+0032	Cradle E6
+0031	Cradle E6
+0034	Cradle E6
+0033	Cradle E6
+0054	Cradle 50MP
+0052	Cradle 50MP
+0053	Cradle 50MP
+0050	Cradle 50MP
+0036	Cradle 50MP
+0057	Cradle 50MP
+0058	Cradle 50MP
+0059	Cradle 50MP
+0062	Cradle 50MP
+0069	Cradle 50MP
+0071	Cradle 50MP
+0068	Cradle 50MP
+0051	Cradle 50MP
+0065	Cradle 50MP
+0064	Cradle 50MP
+0060	Cradle 50MP
+0061	Cradle 50MP
+K0008	Copystand 50MP
+K0010	Copystand 50MP
+K0009	Copystand 50MP
+K0018	Copystand 50MP
+K0002	Copystand 50MP
+K0013	Copystand 50MP
+K0020	Copystand 50MP
+K0021	Copystand 50MP
+K0022	Copystand 50MP
+K0014	Copystand 50MP
+0063	Cradle 50MP
+0072	Copystand 50MP Aux
+K0017	Copystand 50MP Aux
+K0016	Copystand 50MP Aux
+K0024	Copystand 50MP Aux
+K0007	Copystand 50MP Aux
+K0012	Copystand 50MP Aux
+K0011	Copystand 50MP Aux
+K0023	Copystand 50MP Aux
+0078	Copystand 50MP Aux
+K0031	Copystand 50MP Aux
+K0028	Copystand 50MP Aux
+0074	Copystand 50MP Aux
+K0027	Copystand 50MP Aux
+K0026	Copystand 50MP Aux
+0080	Copystand 50MP Aux
+0081	Copystand 50MP Aux
+K0032	Copystand 50MP Aux
+K0033	Copystand 50MP Aux
+K0034	Copystand 50MP Aux
+0026	Copystand 50MP Aux
+K0035	Copystand 50MP Aux + Red
+K0036	Copystand 50MP Aux + Red
+K0037	Copystand 50MP Aux + Red
+K0042	Copystand 50MP Aux + Red
+K0043	Cradle 50MP Aux + Red
+K0048	Cradle 50MP Aux + Red
+K0046	Cradle 50MP Aux + Red
+0076	Cradle 50MP Aux + Red
+0082	Copystand 50MP Aux + Red
+K0040	Copystand 50MP Aux + Red
+K0047	Cradle 50MP Aux + Red
+K0044	Copystand 50MP Aux + Red
+K0045	Cradle 50MP Aux + Red
+0055	Cradle 50MP
+0037	Cradle E6
