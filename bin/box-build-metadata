@@ -7,10 +7,8 @@ require 'pp'
 
 require_relative 'environment'
 require 'sp-boxer'
-require_relative 'box-functions'
 
 include SPBoxer::CLIMessages
-
 
 COMMAND                  = File.basename(__FILE__)
 data_dir                 = File.expand_path '../../data', __FILE__
