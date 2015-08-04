@@ -62,13 +62,6 @@ usage() {
    echo ""
 }
 
-get_value() {
-  gv_file=$1
-  gv_var=$2
-  gv_line=`grep "^$gv_var" $gv_file 2>&1`
-  echo "$gv_line" | sed "s/^$gv_var[	 ][	 ]*//"
-}
-
 ### VARIABLES
 date_cmd="date +%FT%T%z"
 JSON_TEMPLATE=`dirname $0`/../data/metadata_template.json

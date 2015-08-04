@@ -360,6 +360,13 @@ is_a_tar_file() {
   file $1 | grep " tar " > /dev/null 2>&1
 }
 
+get_value() {
+  gv_file=$1
+  gv_var=$2
+  gv_line=`grep "^$gv_var" $gv_file 2>&1`
+  echo "$gv_line" | sed "s/^$gv_var[	 ][	 ]*//"
+}
+
 get_full_path() {
   echo $( cd $(dirname "$1"); pwd)/$(basename "$1")
 }

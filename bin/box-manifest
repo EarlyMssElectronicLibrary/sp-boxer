@@ -62,12 +62,6 @@ usage() {
    echo ""
 }
 
-get_value() {
-  file=$1
-  var=$2
-  line=`grep "^$var" $file 2>&1`
-  echo "$line" | sed "s/^$var[	 ][	 ]*//"
-}
 ### VARIABLES
 PACKAGE_INFO=PACKAGE_INFO.txt
 date_cmd="date +%FT%T%z"
