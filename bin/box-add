@@ -136,6 +136,12 @@ if [ ! -n "$recipient_dir" ]; then
   recipient_dir="NO_RECIPIENT_SPECIFIED"
   warning "Using recipient directory: $recipient_dir"
 fi
+
+package_type=`get_value $INPUT_FILE "PACKAGE_TYPE"`
+if [ ! -n "$package_type" ]; then
+    error "Cannot create package without PACKAGE_TYPE input file (expected: scholar or archive)"
+fi
+
 staging_volume=$STAGING_VOLUME
 staging_dir=$STAGING_DIR
 processed_repo_volume=$PROCESSED_REPO_VOLUME
