@@ -8,9 +8,8 @@ module SPBoxer
       end
     end
 
-    def setup_name file
-      shoot = SPBoxer.shootlist file
-      @mapping[shoot] or raise "Unknown shootlist: #{shoot}"
+    def setup_name shoot_list
+      @mapping[shoot_list] or raise "Unknown shootlist: #{shoot}"
     end
   end
 end

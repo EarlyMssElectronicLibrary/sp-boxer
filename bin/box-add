@@ -243,7 +243,8 @@ if grep -q "^PICK" $INPUT_FILE 2>/dev/null; then
       fi
       message "$counter  `$date_cmd`  CORE DATA `basename $dest`"
       # add the metadata
-      box-build-metadata $dest > $metadata_tmp
+      shoot_list=`basename $source | awk -F_ '{ print $1 }'`
+      box-build-metadata $shoot_list $dest > $metadata_tmp
       exiftool -overwrite_original -j=$metadata_tmp $dest
       if [[ $dest =~ \.tif$ ]]; then
         message "Generate XMP sidecar for $dest"
@@ -286,7 +287,8 @@ if grep -q "^CONTRIB" $INPUT_FILE 2>/dev/null; then
       fi
       message "$counter  `$date_cmd`  CONTRIB  `basename $dest`"
       # add the metadata
-      box-build-metadata $dest > $metadata_tmp
+      shoot_list=`basename $source | awk -F_ '{ print $1 }'`
+      box-build-metadata $shoot_list $dest > $metadata_tmp
       exiftool -overwrite_original -j=$metadata_tmp $dest
       if [[ $dest =~ \.tif$ ]]; then
         message "Generate XMP sidecar for $dest"
@@ -335,8 +337,11 @@ if grep -q "^CAPTURE" $INPUT_FILE 2>/dev/null; then
       fi
       message "$counter  `$date_cmd`  CAPTURE  `basename $dest`"
       # add the metadata
-      box-build-metadata $dest > $metadata_tmp
+      shoot_list=`basename $source | awk -F_ '{ print $1 }'`
+      box-build-metadata $shoot_list $dest > $metadata_tmp
       exiftool -overwrite_original -j=$metadata_tmp $dest
+      cat $metadata_tmp
+      exit 1
       if [[ $dest =~ \.tif$ ]]; then
         message "Generate XMP sidecar for $dest"
         exiftool -TagsFromFile $dest $dest.xmp
