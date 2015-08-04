@@ -139,6 +139,7 @@ fi
 staging_volume=$STAGING_VOLUME
 staging_dir=$STAGING_DIR
 processed_repo_volume=$PROCESSED_REPO_VOLUME
+capture_repo_volume=$CAPTURE_REPO_VOLUME
 repo_dir=$REPO_DIR
 
 # make sure we find the processed_repo
@@ -147,6 +148,14 @@ if [ -d $processed_repo ]; then
   message "Using processed image repository: $processed_repo"
 else
   error "Processed image repository not found: $processed_repo"
+fi
+
+# make sure we find the capture_repo
+capture_repo=$capture_repo_volume/$repo_dir
+if [ -d $capture_repo ]; then
+    message "Using capture image repository: $capture_repo"
+else
+    error "Capture image repository not found: $capture_repo"
 fi
 
 # make sure the staging volume is there
