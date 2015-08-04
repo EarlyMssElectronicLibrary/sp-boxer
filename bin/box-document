@@ -123,23 +123,29 @@ RESOURCE_DIR=`dirname $0`/../data
 if [ ! -d $RESOURCE_DIR ]; then
   error "Cannot find resource directory: $RESOURCE_DIR"
 fi
-README_TEMPLATE=$RESOURCE_DIR/01_ReadMe.md
-if [ -f $README_TEMPLATE ]; then
-  message "Using ReadMe template: $README_TEMPLATE"
-else
-  error "Can't find ReadMe template $README_TEMPLATE"
-fi
-
 
 year=`date +%Y`
 shelf_mark=`get_value $metadata_file "SHELF_MARK"`
 recipient=`get_value $metadata_file "RECIPIENT"`
 shelf_mark_dir=`echo $shelf_mark | sed 's/  */_/g'`
 
-package_type=`get_value $INPUT_FILE "PACKAGE_TYPE"`
+package_type=`get_value $INPUT_FILE "PACKAGE_TYPE" | tr 'A-Z' 'a-z'`
 if [ ! -n "$package_type" ]; then
-    error "Cannot create package without PACKAGE_TYPE input file (expected: scholar or archive)"
+    error "Cannot create package without PACKAGE_TYPE input file(expected: scholar or archive)"
+elif [[ "$package_type" = 'scholar' ]] || [[ "$package_type" = 'archive' ]]
+then
+    message "PACKAGE_TYPE is $package_type"
+else
+    error "Bad PACKAGE_TYPE; expected: 'scholar', 'archive'; got: $package_type"
 fi
+
+README_TEMPLATE=$RESOURCE_DIR/01_ReadMe-${package_type}.md
+if [ -f $README_TEMPLATE ]; then
+  message "Using ReadMe template: $README_TEMPLATE"
+else
+  error "Can't find ReadMe template $README_TEMPLATE"
+fi
+
 
 staging_volume=$STAGING_VOLUME
 staging_dir=$STAGING_DIR
