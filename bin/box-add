@@ -243,8 +243,12 @@ if grep -q "^PICK" $INPUT_FILE 2>/dev/null; then
       fi
       message "$counter  `$date_cmd`  CORE DATA `basename $dest`"
       # add the metadata
-      sed "s!SOURCE_FILE!${dest}!" $JSON_TEMPLATE > $metadata_tmp
+      box-build-metadata $dest > $metadata_tmp
       exiftool -overwrite_original -j=$metadata_tmp $dest
+      if [[ $dest =~ \.tif$ ]]; then
+        message "Generate XMP sidecar for $dest"
+        exiftool -TagsFromFile $dest $dest.xmp
+      fi
     fi
   done < $pick_list
 else
@@ -282,8 +286,12 @@ if grep -q "^CONTRIB" $INPUT_FILE 2>/dev/null; then
       fi
       message "$counter  `$date_cmd`  CONTRIB  `basename $dest`"
       # add the metadata
-      sed "s!SOURCE_FILE!${dest}!" $JSON_TEMPLATE > $metadata_tmp
+      box-build-metadata $dest > $metadata_tmp
       exiftool -overwrite_original -j=$metadata_tmp $dest
+      if [[ $dest =~ \.tif$ ]]; then
+        message "Generate XMP sidecar for $dest"
+        exiftool -TagsFromFile $dest $dest.xmp
+      fi
     fi
   done < $contrib_list
 else
@@ -327,8 +335,12 @@ if grep -q "^CAPTURE" $INPUT_FILE 2>/dev/null; then
       fi
       message "$counter  `$date_cmd`  CAPTURE  `basename $dest`"
       # add the metadata
-      sed "s!SOURCE_FILE!${dest}!" $JSON_TEMPLATE > $metadata_tmp
+      box-build-metadata $dest > $metadata_tmp
       exiftool -overwrite_original -j=$metadata_tmp $dest
+      if [[ $dest =~ \.tif$ ]]; then
+        message "Generate XMP sidecar for $dest"
+        exiftool -TagsFromFile $dest $dest.xmp
+      fi
     fi
   done < $capture_list
 else
