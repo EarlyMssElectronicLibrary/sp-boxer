@@ -327,7 +327,7 @@ Copystand 50MP Aux + Red:
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Illumination_Aux_Wattage: '42.00'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBRBO22:
     Symbol: WBRBO22
     IMG_Imaging_Device_Make: MegaVision
@@ -343,7 +343,7 @@ Copystand 50MP Aux + Red:
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Illumination_Aux_Wattage: '42.00'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVB47:
     Symbol: WBUVB47
     IMG_Imaging_Device_Make: MegaVision
@@ -359,7 +359,7 @@ Copystand 50MP Aux + Red:
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Illumination_Aux_Wattage: '44.00'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   WBUVG58:
     Symbol: WBUVG58
     IMG_Imaging_Device_Make: MegaVision
@@ -375,7 +375,7 @@ Copystand 50MP Aux + Red:
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Illumination_Aux_Wattage: '44.00'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBUVO22:
     Symbol: WBUVO22
     IMG_Imaging_Device_Make: MegaVision
@@ -391,7 +391,7 @@ Copystand 50MP Aux + Red:
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Illumination_Aux_Wattage: '44.00'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVUVb:
     Symbol: WBUVUVb
     IMG_Imaging_Device_Make: MegaVision
@@ -421,8 +421,8 @@ Copystand 50MP Aux + Red:
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Illumination_Aux_Wattage: '44.00'
     IMG_Acquisition_Filters: Baeder U
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
-    IMG_Filter_Nominal_Pass_FWHM: '25'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Acquisition_Filter_Nominal_Pass_FWHM: '25'
   WBRBR25:
     Symbol: WBRBR25
     IMG_Imaging_Device_Make: MegaVision
@@ -437,7 +437,7 @@ Copystand 50MP Aux + Red:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
   WBUVR25:
     Symbol: WBUVR25
     IMG_Imaging_Device_Make: MegaVision
@@ -452,7 +452,7 @@ Copystand 50MP Aux + Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
 Copystand 50MP Aux:
   MB365UV:
     Symbol: MB365UV
@@ -780,7 +780,7 @@ Copystand 50MP Aux:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBRBO22:
     Symbol: WBRBO22
     IMG_Imaging_Device_Make: MegaVision
@@ -795,7 +795,7 @@ Copystand 50MP Aux:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVB47:
     Symbol: WBUVB47
     IMG_Imaging_Device_Make: MegaVision
@@ -810,7 +810,7 @@ Copystand 50MP Aux:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   WBUVG58:
     Symbol: WBUVG58
     IMG_Imaging_Device_Make: MegaVision
@@ -825,7 +825,7 @@ Copystand 50MP Aux:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBUVO22:
     Symbol: WBUVO22
     IMG_Imaging_Device_Make: MegaVision
@@ -840,7 +840,7 @@ Copystand 50MP Aux:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVUVb:
     Symbol: WBUVUVb
     IMG_Imaging_Device_Make: MegaVision
@@ -868,8 +868,8 @@ Copystand 50MP Aux:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: Baeder U
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
-    IMG_Filter_Nominal_Pass_FWHM: '25'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Acquisition_Filter_Nominal_Pass_FWHM: '25'
 Copystand 50MP:
   MB365UV:
     Symbol: MB365UV
@@ -1197,7 +1197,7 @@ Copystand 50MP:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBRBO22:
     Symbol: WBRBO22
     IMG_Imaging_Device_Make: MegaVision
@@ -1212,7 +1212,7 @@ Copystand 50MP:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVB47:
     Symbol: WBUVB47
     IMG_Imaging_Device_Make: MegaVision
@@ -1227,7 +1227,7 @@ Copystand 50MP:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   WBUVG58:
     Symbol: WBUVG58
     IMG_Imaging_Device_Make: MegaVision
@@ -1242,7 +1242,7 @@ Copystand 50MP:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBUVO22:
     Symbol: WBUVO22
     IMG_Imaging_Device_Make: MegaVision
@@ -1257,7 +1257,7 @@ Copystand 50MP:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVUVb:
     Symbol: WBUVUVb
     IMG_Imaging_Device_Make: MegaVision
@@ -1285,8 +1285,8 @@ Copystand 50MP:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: Baeder U
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
-    IMG_Filter_Nominal_Pass_FWHM: '25'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Acquisition_Filter_Nominal_Pass_FWHM: '25'
 Copystand E6 Red:
   MB365UV:
     Symbol: MB365UV
@@ -1645,7 +1645,7 @@ Copystand E6 Red:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: G61
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   MB455RB_021:
     Symbol: WBRBG61
     Alternate Symbol: MB455RB_021
@@ -1661,7 +1661,7 @@ Copystand E6 Red:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: G61
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBRBB47:
     Symbol: WBRBB47
     Alternate Symbol: MB455RB_022
@@ -1677,7 +1677,7 @@ Copystand E6 Red:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   MB455RB_022:
     Symbol: WBRBB47
     Alternate Symbol: MB455RB_022
@@ -1693,7 +1693,7 @@ Copystand E6 Red:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   WBRBR25:
     Symbol: WBRBR25
     Alternate Symbol: MB455RB_020
@@ -1709,7 +1709,7 @@ Copystand E6 Red:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
   MB455RB_020:
     Symbol: WBRBR25
     Alternate Symbol: MB455RB_020
@@ -1725,7 +1725,7 @@ Copystand E6 Red:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
   WBUVB47:
     Symbol: WBUVB47
     Alternate Symbol: MB365UV_019
@@ -1741,7 +1741,7 @@ Copystand E6 Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   MB365UV_019:
     Symbol: WBUVB47
     Alternate Symbol: MB365UV_019
@@ -1757,7 +1757,7 @@ Copystand E6 Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   WBUVG61:
     Symbol: WBUVG61
     Alternate Symbol: MB365UV_018
@@ -1773,7 +1773,7 @@ Copystand E6 Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: G61
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   MB365UV_018:
     Symbol: WBUVG61
     Alternate Symbol: MB365UV_018
@@ -1789,7 +1789,7 @@ Copystand E6 Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: G61
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBUVR25:
     Symbol: WBUVR25
     Alternate Symbol: MB365UV_017
@@ -1805,7 +1805,7 @@ Copystand E6 Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
   MB365UV_017:
     Symbol: WBUVR25
     Alternate Symbol: MB365UV_017
@@ -1821,7 +1821,7 @@ Copystand E6 Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
   WBUVUVP:
     Symbol: WBUVUVP
     IMG_Imaging_Device_Make: MegaVision
@@ -1836,8 +1836,8 @@ Copystand E6 Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: Baeder U
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
-    IMG_Filter_Nominal_Pass_FWHM: '25'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Acquisition_Filter_Nominal_Pass_FWHM: '25'
   MBUVRB:
     Symbol: MBUVRB
     Alternate Symbol: MBUV-RB_024
@@ -2193,7 +2193,7 @@ Copystand E6:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBRBO22:
     Symbol: WBRBO22
     IMG_Imaging_Device_Make: MegaVision
@@ -2208,7 +2208,7 @@ Copystand E6:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVB47:
     Symbol: WBUVB47
     IMG_Imaging_Device_Make: MegaVision
@@ -2223,7 +2223,7 @@ Copystand E6:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   WBUVG58:
     Symbol: WBUVG58
     IMG_Imaging_Device_Make: MegaVision
@@ -2238,7 +2238,7 @@ Copystand E6:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBUVO22:
     Symbol: WBUVO22
     IMG_Imaging_Device_Make: MegaVision
@@ -2253,7 +2253,7 @@ Copystand E6:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVUVb:
     Symbol: WBUVUVb
     IMG_Imaging_Device_Make: MegaVision
@@ -2281,8 +2281,8 @@ Copystand E6:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: Baeder U
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
-    IMG_Filter_Nominal_Pass_FWHM: '25'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Acquisition_Filter_Nominal_Pass_FWHM: '25'
 Cradle 50MP Aux + Red:
   MB365UV:
     Symbol: MB365UV
@@ -2611,7 +2611,7 @@ Cradle 50MP Aux + Red:
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Illumination_Aux_Wattage: '42.00'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBRBO22:
     Symbol: WBRBO22
     IMG_Imaging_Device_Make: MegaVision
@@ -2627,7 +2627,7 @@ Cradle 50MP Aux + Red:
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Illumination_Aux_Wattage: '42.00'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVB47:
     Symbol: WBUVB47
     IMG_Imaging_Device_Make: MegaVision
@@ -2643,7 +2643,7 @@ Cradle 50MP Aux + Red:
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Illumination_Aux_Wattage: '44.00'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   WBUVG58:
     Symbol: WBUVG58
     IMG_Imaging_Device_Make: MegaVision
@@ -2659,7 +2659,7 @@ Cradle 50MP Aux + Red:
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Illumination_Aux_Wattage: '44.00'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBUVO22:
     Symbol: WBUVO22
     IMG_Imaging_Device_Make: MegaVision
@@ -2675,7 +2675,7 @@ Cradle 50MP Aux + Red:
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Illumination_Aux_Wattage: '44.00'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVUVb:
     Symbol: WBUVUVb
     IMG_Imaging_Device_Make: MegaVision
@@ -2705,8 +2705,8 @@ Cradle 50MP Aux + Red:
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Illumination_Aux_Wattage: '44.00'
     IMG_Acquisition_Filters: Baeder U
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
-    IMG_Filter_Nominal_Pass_FWHM: '25'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Acquisition_Filter_Nominal_Pass_FWHM: '25'
   WBRBR25:
     Symbol: WBRBR25
     IMG_Imaging_Device_Make: MegaVision
@@ -2722,7 +2722,7 @@ Cradle 50MP Aux + Red:
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Illumination_Aux_Wattage: '44.00'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
   WBUVR25:
     Symbol: WBUVR25
     IMG_Imaging_Device_Make: MegaVision
@@ -2738,7 +2738,7 @@ Cradle 50MP Aux + Red:
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Illumination_Aux_Wattage: '44.00'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
 Cradle 50MP Aux:
   MB365UV:
     Symbol: MB365UV
@@ -3067,7 +3067,7 @@ Cradle 50MP Aux:
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Illumination_Aux_Wattage: '42.00'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBRBO22:
     Symbol: WBRBO22
     IMG_Imaging_Device_Make: MegaVision
@@ -3083,7 +3083,7 @@ Cradle 50MP Aux:
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Illumination_Aux_Wattage: '42.00'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVB47:
     Symbol: WBUVB47
     IMG_Imaging_Device_Make: MegaVision
@@ -3099,7 +3099,7 @@ Cradle 50MP Aux:
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Illumination_Aux_Wattage: '44.00'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   WBUVG58:
     Symbol: WBUVG58
     IMG_Imaging_Device_Make: MegaVision
@@ -3115,7 +3115,7 @@ Cradle 50MP Aux:
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Illumination_Aux_Wattage: '44.00'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBUVO22:
     Symbol: WBUVO22
     IMG_Imaging_Device_Make: MegaVision
@@ -3131,7 +3131,7 @@ Cradle 50MP Aux:
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Illumination_Aux_Wattage: '44.00'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVUVb:
     Symbol: WBUVUVb
     IMG_Imaging_Device_Make: MegaVision
@@ -3161,8 +3161,8 @@ Cradle 50MP Aux:
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Illumination_Aux_Wattage: '44.00'
     IMG_Acquisition_Filters: Baeder U
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
-    IMG_Filter_Nominal_Pass_FWHM: '25'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Acquisition_Filter_Nominal_Pass_FWHM: '25'
 Cradle 50MP:
   MB365UV:
     Symbol: MB365UV
@@ -3490,7 +3490,7 @@ Cradle 50MP:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBRBO22:
     Symbol: WBRBO22
     IMG_Imaging_Device_Make: MegaVision
@@ -3505,7 +3505,7 @@ Cradle 50MP:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVB47:
     Symbol: WBUVB47
     IMG_Imaging_Device_Make: MegaVision
@@ -3520,7 +3520,7 @@ Cradle 50MP:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   WBUVG58:
     Symbol: WBUVG58
     IMG_Imaging_Device_Make: MegaVision
@@ -3535,7 +3535,7 @@ Cradle 50MP:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBUVO22:
     Symbol: WBUVO22
     IMG_Imaging_Device_Make: MegaVision
@@ -3550,7 +3550,7 @@ Cradle 50MP:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVUVb:
     Symbol: WBUVUVb
     IMG_Imaging_Device_Make: MegaVision
@@ -3578,8 +3578,8 @@ Cradle 50MP:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: Baeder U
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
-    IMG_Filter_Nominal_Pass_FWHM: '25'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Acquisition_Filter_Nominal_Pass_FWHM: '25'
 Cradle E6 Red NoTX:
   MB365UV:
     Symbol: MB365UV
@@ -3834,7 +3834,7 @@ Cradle E6 Red NoTX:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: G61
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   MB455RB_021:
     Symbol: WBRBG61
     Alternate Symbol: MB455RB_021
@@ -3850,7 +3850,7 @@ Cradle E6 Red NoTX:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: G61
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBRBB47:
     Symbol: WBRBB47
     Alternate Symbol: MB455RB_022
@@ -3866,7 +3866,7 @@ Cradle E6 Red NoTX:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   MB455RB_022:
     Symbol: WBRBB47
     Alternate Symbol: MB455RB_022
@@ -3882,7 +3882,7 @@ Cradle E6 Red NoTX:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   WBRBR25:
     Symbol: WBRBR25
     Alternate Symbol: MB455RB_020
@@ -3898,7 +3898,7 @@ Cradle E6 Red NoTX:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
   MB455RB_020:
     Symbol: WBRBR25
     Alternate Symbol: MB455RB_020
@@ -3914,7 +3914,7 @@ Cradle E6 Red NoTX:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
   WBUVB47:
     Symbol: WBUVB47
     Alternate Symbol: MB365UV_019
@@ -3930,7 +3930,7 @@ Cradle E6 Red NoTX:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   MB365UV_019:
     Symbol: WBUVB47
     Alternate Symbol: MB365UV_019
@@ -3946,7 +3946,7 @@ Cradle E6 Red NoTX:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   WBUVG61:
     Symbol: WBUVG61
     Alternate Symbol: MB365UV_018
@@ -3962,7 +3962,7 @@ Cradle E6 Red NoTX:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: G61
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   MB365UV_018:
     Symbol: WBUVG61
     Alternate Symbol: MB365UV_018
@@ -3978,7 +3978,7 @@ Cradle E6 Red NoTX:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: G61
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBUVR25:
     Symbol: WBUVR25
     Alternate Symbol: MB365UV_017
@@ -3994,7 +3994,7 @@ Cradle E6 Red NoTX:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
   MB365UV_017:
     Symbol: WBUVR25
     Alternate Symbol: MB365UV_017
@@ -4010,7 +4010,7 @@ Cradle E6 Red NoTX:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
   WBUVUVP:
     Symbol: WBUVUVP
     IMG_Imaging_Device_Make: MegaVision
@@ -4025,8 +4025,8 @@ Cradle E6 Red NoTX:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: Baeder U
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
-    IMG_Filter_Nominal_Pass_FWHM: '25'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Acquisition_Filter_Nominal_Pass_FWHM: '25'
   MBUVRB:
     Symbol: MBUVRB
     Alternate Symbol: MBUV-RB_024
@@ -4413,7 +4413,7 @@ Cradle E6 Red:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: G61
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   MB455RB_021:
     Symbol: WBRBG61
     Alternate Symbol: MB455RB_021
@@ -4429,7 +4429,7 @@ Cradle E6 Red:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: G61
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBRBB47:
     Symbol: WBRBB47
     Alternate Symbol: MB455RB_022
@@ -4445,7 +4445,7 @@ Cradle E6 Red:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   MB455RB_022:
     Symbol: WBRBB47
     Alternate Symbol: MB455RB_022
@@ -4461,7 +4461,7 @@ Cradle E6 Red:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   WBRBR25:
     Symbol: WBRBR25
     Alternate Symbol: MB455RB_020
@@ -4477,7 +4477,7 @@ Cradle E6 Red:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
   MB455RB_020:
     Symbol: WBRBR25
     Alternate Symbol: MB455RB_020
@@ -4493,7 +4493,7 @@ Cradle E6 Red:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
   WBUVB47:
     Symbol: WBUVB47
     Alternate Symbol: MB365UV_019
@@ -4509,7 +4509,7 @@ Cradle E6 Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   MB365UV_019:
     Symbol: WBUVB47
     Alternate Symbol: MB365UV_019
@@ -4525,7 +4525,7 @@ Cradle E6 Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   WBUVG61:
     Symbol: WBUVG61
     Alternate Symbol: MB365UV_018
@@ -4541,7 +4541,7 @@ Cradle E6 Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: G61
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   MB365UV_018:
     Symbol: WBUVG61
     Alternate Symbol: MB365UV_018
@@ -4557,7 +4557,7 @@ Cradle E6 Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: G61
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBUVR25:
     Symbol: WBUVR25
     Alternate Symbol: MB365UV_017
@@ -4573,7 +4573,7 @@ Cradle E6 Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
   MB365UV_017:
     Symbol: WBUVR25
     Alternate Symbol: MB365UV_017
@@ -4589,7 +4589,7 @@ Cradle E6 Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: R25
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '625'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '625'
   WBUVUVP:
     Symbol: WBUVUVP
     IMG_Imaging_Device_Make: MegaVision
@@ -4604,8 +4604,8 @@ Cradle E6 Red:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: Baeder U
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
-    IMG_Filter_Nominal_Pass_FWHM: '25'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Acquisition_Filter_Nominal_Pass_FWHM: '25'
   MBUVRB:
     Symbol: MBUVRB
     Alternate Symbol: MBUV-RB_024
@@ -4961,7 +4961,7 @@ Cradle E6:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBRBO22:
     Symbol: WBRBO22
     IMG_Imaging_Device_Make: MegaVision
@@ -4976,7 +4976,7 @@ Cradle E6:
     IMG_Illumination_Wavelength: '455'
     IMG_Illumination_Source_Wattage: '3.80'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVB47:
     Symbol: WBUVB47
     IMG_Imaging_Device_Make: MegaVision
@@ -4991,7 +4991,7 @@ Cradle E6:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: B47
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '430'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '430'
   WBUVG58:
     Symbol: WBUVG58
     IMG_Imaging_Device_Make: MegaVision
@@ -5006,7 +5006,7 @@ Cradle E6:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: G58
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '515'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '515'
   WBUVO22:
     Symbol: WBUVO22
     IMG_Imaging_Device_Make: MegaVision
@@ -5021,7 +5021,7 @@ Cradle E6:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: O22
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '605'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '605'
   WBUVUVb:
     Symbol: WBUVUVb
     IMG_Imaging_Device_Make: MegaVision
@@ -5049,5 +5049,5 @@ Cradle E6:
     IMG_Illumination_Wavelength: '365'
     IMG_Illumination_Source_Wattage: '4.00'
     IMG_Acquisition_Filters: Baeder U
-    IMG_Filter_Nominal_Pass_Center_Wavelength: '350'
-    IMG_Filter_Nominal_Pass_FWHM: '25'
+    IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength: '350'
+    IMG_Acquisition_Filter_Nominal_Pass_FWHM: '25'
