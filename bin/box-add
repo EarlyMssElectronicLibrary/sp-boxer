@@ -318,6 +318,12 @@ if grep -q "^CAPTURE" $INPUT_FILE 2>/dev/null; then
       cp -v $source $dest >> $copy_log
       if [[ $? -ne 0 ]]; then
         fail "Error copying $source to $dest (full line: $capture)"
+      else
+        # capture JPEGs are thumbnails
+        if [[ $dest =~ \.jpg$ ]]; then
+          message "Generate thumbnail from $dest"
+          mogrify -resize %10 $dest
+        fi
       fi
       message "$counter  `$date_cmd`  CAPTURE  `basename $dest`"
       # add the metadata
