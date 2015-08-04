@@ -236,9 +236,9 @@ processing types:
   created from a PCA of normalized reflective and blue fluorescent
   bands.
 
-- PhotoShoot color image (`PSH_color`); for example,
-  `GeoNF-19_054v_28-026_PSH_color.jpg`. A color image generated using
-  the PhotoShoot application at time of capture, using images of
+- Proprietary color processed image (`PSH_color`); for example,
+  `GeoNF-19_054v_28-026_PSH_color.jpg`.  A color image generated using
+  a proprietary application at time of capture, using images of
   several of the visible wavelengths.
 
 - Pseudocolor image (`KTK_pseudo`); for example,
@@ -319,9 +319,9 @@ file name: GrkNF-MG99_20-9_6r+MB365UV_007.tif
 
 The components of a captured image file name are:
 
-    - Shelfmark: `GrkNF-MG99` for 'Greek NF MG 99'
+  - Shelfmark: `GrkNF-MG99` for 'Greek NF MG 99'
 
-    - Bifolio (or Folio or fragments): '6r', the folio or folios in the
+  - Bifolio (or Folio or fragments): '6r', the folio or folios in the
     image scene
 
   - Shot sequence identifier: '20-9', the grouping of all registered
@@ -329,24 +329,35 @@ The components of a captured image file name are:
     for shot sequence with identifier '9' in shoot list '20'
 
   - Imaging Illumination details preceded by a + sign: '+MB365UV'
-      Illumination light source 'MB' for the main panel LED lights
-      mounted about above the manuscript on each side of the camera lens
+    Illumination light source 'MB' for the main panel LED lights
+    mounted about above the manuscript on each side of the camera lens
 
     - Serial number: '007', three digit serial number, between 001 and
     033, for the image within this sequence of exposures; thus, '007'
     for the 7th image
 
-  - Flattening flag: '_F', flattening flag added by the capture and
-    development software, Photoshoot, indicating that this image has
-    been computationally flattened using the most recent 'flat' image
-    capture for this illumination
+  - Flattening flag: A set of "flats" is captured at the beginning of
+    each imaging setup.  These are an image sequence taken of a
+    standard white sheet of paper.  This is used to "flatten" the
+    captured images, which eliminates differences in captured images
+    caused by variability in illumination or flaws in the camera
+    sensor.  The proprietary imaging software creates a flattened
+    image based on the flat file and the captured palimpsest image.
+    It classifies pixels as normal and abnormal based on the "flats."
+    Some of the abnormal pixels in the captured image may then be
+    adjusted during flattening.  These flattened images have an "_F"
+    suffix denoting that they are flattened.  The metadata includes
+    the name of the flat file that was used to create the
+    corresponding flattened image.  These captured and flattened
+    images serve as the core image data for the production of
+    processed images.
 
-    - Extension: 'tif'
+  - Extension: 'tif'
 
 This filename indicates the file an image of Greek NF MG 99 folio 6
 recto and was taken as a part of shot sequence '20-9'.  It was
 illumintated by both main panel 365 nm ultraviolet LED lights and was
-assigned serial number 7. It was flattened upon conversion to TIFF
+assigned serial number 7.  It was flattened upon conversion to TIFF
 format.  Additional information about the image collection parameters
 is contained in the metadata.
 
