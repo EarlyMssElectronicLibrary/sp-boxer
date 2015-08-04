@@ -1,5 +1,7 @@
-# Sinai Palimpsests Project Digital Release
-# README Document for @SHELF_MARK@
+Sinai Palimpsests Project Digital Release
+=========================================
+README Document for @SHELF_MARK@
+--------------------------------
 
 Authors:
 
@@ -291,7 +293,7 @@ processing types:
 All file names follow strict naming conventions to facilitate easy
 identification of file type and content.
 
-#### 5.1.3.1 Captured Image Names
+##### 5.1.3.1 Captured Image Names
 
 Each file name of a captured image contains the following string of
 information, with each segment of the filename separated by underscore
@@ -377,7 +379,7 @@ NOTES:
 These captured images serve as the core image data for the production
 of processed images.
 
-#### 5.1.3.2 Processed Image Names
+##### 5.1.3.2 Processed Image Names
 
 The processed file names use a combination of multiple symbols for the
 wavelengths of the captured images used for developing the processed
