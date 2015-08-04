@@ -135,6 +135,12 @@ year=`date +%Y`
 shelf_mark=`get_value $metadata_file "SHELF_MARK"`
 recipient=`get_value $metadata_file "RECIPIENT"`
 shelf_mark_dir=`echo $shelf_mark | sed 's/  */_/g'`
+
+package_type=`get_value $INPUT_FILE "PACKAGE_TYPE"`
+if [ ! -n "$package_type" ]; then
+    error "Cannot create package without PACKAGE_TYPE input file (expected: scholar or archive)"
+fi
+
 staging_volume=$STAGING_VOLUME
 staging_dir=$STAGING_DIR
 
