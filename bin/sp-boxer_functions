@@ -1,6 +1,6 @@
 # spindle functions shared by all spindle shells scripts.  Scripts using
 # spindle_functions should:
-# 
+#
 #  --  export SPINDLE_COMMAND=`basename $0`
 #  --  export HELP
 #  --  source `dirname $0`/spindle_functions
@@ -18,7 +18,7 @@
 # VERSION
 VERSION=0.4.2
 
-# MESSAGE AND USAGE FUNCTIONS 
+# MESSAGE AND USAGE FUNCTIONS
 
 # ISO date format YYYY-mm-ddTHH:MM:SS+-OFFSET
 iso_date() {
@@ -40,7 +40,7 @@ print_message() {
 version() {
   prog=$1
   echo "SP-Boxer version $VERSION"
-  echo 
+  echo
 }
 
 message() {
@@ -183,7 +183,7 @@ check_manifest_files() {
 
   # get the actual files
   zzfile_list=$work.1
-  find data -type f | sort > $zzfile_list 
+  find data -type f | sort > $zzfile_list
 
   # get the manifest file list
   zzmanifest=manifest-md5s.txt
@@ -228,11 +228,11 @@ check_manifest_files() {
 # The arguments are:
 #
 #     Usage: report_count COUNT TOTAL INTERVAL [FILE]
-# 
+#
 #   COUNT     the count/index of the current file
 #   TOTAL     the total number of files
 #   INTERVAL  how often to report the count, an interval of 0 (zero)
-#             will force the count to be printed 
+#             will force the count to be printed
 #   FILE      optional file name to print with count
 #
 # Output is printed as an INFO message and includes a time stamp.
@@ -248,7 +248,7 @@ report_count() {
     rc_time=`date +%Y-%m-%dT%H:%M:%S`
     if [ -n "$rc_file" ]; then
       message "$rc_mark  `printf "%-40s" $rc_file` $rc_time"
-    else 
+    else
       message "$rc_mark  $rc_time"
     fi
   elif [ "$(( $rc_count % $rc_interval ))" -eq 0 ]; then
@@ -320,7 +320,7 @@ isImageFile() {
   file=$1
   ext=`getExtension $file`
   stat=0
-  for iext in $FILE_TYPES 
+  for iext in $FILE_TYPES
   do
     if [ "$ext" = "$iext" ]; then
       return 0
@@ -333,7 +333,7 @@ hasValidExt() {
   file=$1
   ext=`getExtension $file`
   stat=0
-  for iext in $STANDARD_EXTS 
+  for iext in $STANDARD_EXTS
   do
     if [ "$ext" = "$iext" ]; then
       return 0
@@ -365,7 +365,7 @@ get_full_path() {
 }
 
 validateFilename() {
-  file=$1 
+  file=$1
   if [ -z "$file" ]; then
     error "validateFilename: please provide a file name; got '$file'"
   fi
@@ -386,11 +386,11 @@ validateFilename() {
     proc_type=`echo $base | awk -F '_' '{ print $4 }'`
     num_fields=`echo $base | awk -F '_' '{ print NF }'`
     if [ $num_fields -gt 4 ]; then
-      modifiers=`echo $base | awk -F '_' '{ 
-      printf $5; 
-      for (i = 6; i <= NF; i++) { 
-        printf "_" $i 
-      }; 
+      modifiers=`echo $base | awk -F '_' '{
+      printf $5;
+      for (i = 6; i <= NF; i++) {
+        printf "_" $i
+      };
       printf "\n" }'`
     fi
     if ! matchesPattern "$shoot_list" "$SHOOT_LIST_PTRN" ; then
@@ -458,7 +458,7 @@ cmpActualToLogged() {
     do
       error_no_exit "NO_SUCH_FILE  $file"
     done
-    
+
     return 1
   fi
 }
