@@ -129,10 +129,14 @@ shelf_mark=`get_value $metadata_file "SHELF_MARK"`
 recipient=`get_value $metadata_file "RECIPIENT"`
 shelf_mark_dir=`echo $shelf_mark | sed 's/  */_/g'`
 
-package_type=`get_value $INPUT_FILE "PACKAGE_TYPE" | tr 'A-Z' 'a-z'`
+package_type=`get_value $metadata_file "PACKAGE_TYPE"`
 if [ ! -n "$package_type" ]; then
-    error "Cannot create package without PACKAGE_TYPE input file(expected: scholar or archive)"
-elif [[ "$package_type" = 'scholar' ]] || [[ "$package_type" = 'archive' ]]
+    error "Cannot create package without PACKAGE_TYPE (expected: scholar or archive)"
+else
+    package_type=`echo $package_type | tr 'A-Z' 'a-z'`
+fi 
+
+if [[ "$package_type" = 'scholar' ]] || [[ "$package_type" = 'archive' ]]
 then
     message "PACKAGE_TYPE is $package_type"
 else
