@@ -1,7 +1,7 @@
 Sinai Palimpsests Project Digital Release
 =========================================
-README Document for @SHELF_MARK@
---------------------------------
+
+# README document for digital archive of Sinai palimpsest @SHELF_MARK@
 
 Authors:
 
@@ -9,11 +9,11 @@ Authors:
  - Michael B. Toth
  - Michael Phelps
 
-## Sinai Palimpsests Data
+# Sinai Palimpsests Data
 
 This data set includes all captured and processed data from the
-spectral imaging of Palimpsest folios from manuscripts in the
-Library of the Holy Monastery of St. Catherine in the Sinai (the Sinai
+spectral imaging of palimpsest folios from @SHELF_MARK@ in the Library
+of the Holy Monastery of St. Catherine in the Sinai (the Sinai
 Palimpsests Project).
 
 ## 1 Sinai Palimpsest: @SHELF_MARK@
