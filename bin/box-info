@@ -115,6 +115,9 @@ if [ ! -n "$package_type" ]; then
     error "Cannot create package without PACKAGE_TYPE input file (expected: scholar or archive)"
 fi
 
+# get shelf marks
+shoot_lists=`grep ^SHOOT_LIST $INPUT_FILE | awk '{ print $2 }' | awk -F'|' '{ print $1 }'`
+
 staging_volume=$STAGING_VOLUME
 staging_dir=$STAGING_DIR
 processed_repo_volume=$PROCESSED_REPO_VOLUME
@@ -142,10 +145,11 @@ else
 fi
 
 metadata_file=$package_dir/$PACKAGE_INFO
-echo "SHELF_MARK $shelf_mark"			> $metadata_file
-echo "SHORT_SHELF_MARK $short_shelf_mark"	>> $metadata_file
-echo "RECIPIENT $recipient"			>> $metadata_file
-echo "PACKAGE_TYPE $package_type"		>> $metadata_file
+echo "SHELF_MARK $shelf_mark"             > $metadata_file
+echo "SHORT_SHELF_MARK $short_shelf_mark" >> $metadata_file
+echo "RECIPIENT $recipient"               >> $metadata_file
+echo "SHOOT_LISTS $shoot_lists"           >> $metadata_file
+echo "PACKAGE_TYPE $package_type"         >> $metadata_file
 message "Wrote metadata file: ${metadata_file}:"
 cat $metadata_file
 message "Yup. That's it."
