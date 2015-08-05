@@ -109,6 +109,12 @@ if [ ! -n "$recipient_dir" ]; then
 else
   message "RECIPIENT_DIR is $recipient_dir"
 fi
+
+package_type=`get_value $INPUT_FILE "PACKAGE_TYPE"`
+if [ ! -n "$package_type" ]; then
+    error "Cannot create package without PACKAGE_TYPE input file (expected: scholar or archive)"
+fi
+
 staging_volume=$STAGING_VOLUME
 staging_dir=$STAGING_DIR
 processed_repo_volume=$PROCESSED_REPO_VOLUME
@@ -136,9 +142,10 @@ else
 fi
 
 metadata_file=$package_dir/$PACKAGE_INFO
-echo "SHELF_MARK $shelf_mark" > $metadata_file
-echo "SHORT_SHELF_MARK $short_shelf_mark" >> $metadata_file
-echo "RECIPIENT $recipient" >> $metadata_file
+echo "SHELF_MARK $shelf_mark"			> $metadata_file
+echo "SHORT_SHELF_MARK $short_shelf_mark"	>> $metadata_file
+echo "RECIPIENT $recipient"			>> $metadata_file
+echo "PACKAGE_TYPE $package_type"		>> $metadata_file
 message "Wrote metadata file: ${metadata_file}:"
 cat $metadata_file
 message "Yup. That's it."
