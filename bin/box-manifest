@@ -101,31 +101,15 @@ message "Using MD5 command: $MD5_CMD"
 
 # grab input file and confirm it exists
 PACKAGE_DIR=`package_dir $1`
+if [ $? != 0 ]; then
+  error "Error finding PACKAGE_DIR"
+fi 
 metadata_file=$PACKAGE_DIR/$PACKAGE_INFO
-if [ -f $metadata_file ]; then
+if [ -f "$metadata_file" ]; then
   message "Found package metadata proceeding."
 else
   error "Can't find package metadata: $metadata_file"
 fi
-
-# find the resource dir; this hold ReadMe file templates
-RESOURCE_DIR=`dirname $0`/../data
-if [ ! -d $RESOURCE_DIR ]; then
-  error "Cannot find resource directory: $RESOURCE_DIR"
-fi
-README_TEMPLATE=$RESOURCE_DIR/01_ReadMe.md
-if [ -f $README_TEMPLATE ]; then
-  message "Using ReadMe template: $README_TEMPLATE"
-else
-  error "Can't find ReadMe template $README_TEMPLATE"
-fi
-
-# get the variables
-year=`date +%Y`
-shelfmark=`get_value $metadata_file "SHELFMARK"`
-shelfmark_dir=`echo $shelfmark | sed 's/  */_/g'`
-staging_volume=`get_value $metadata_file "STAGING_VOLUME"`
-staging_dir=`get_value $metadata_file "STAGING_DIR"`
 
 message "Using manuscript directory: $PACKAGE_DIR"
 
