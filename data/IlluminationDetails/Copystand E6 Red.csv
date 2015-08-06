@@ -1,4 +1,4 @@
-Symbol,Alternate Symbol,IMG_Imaging_Device_Make,IMG_Imaging_Device_Model,  IMG_Sensor,  IMG_Lens_Brand,IMG_Lens_model,IMG_Lens_Size_mm,IMG_Spectral_Range,IMG_Spectral_Sensor_Range,IMG_Illumination_Source_Number,IMG_Illumination_Wavelength,IMG_Illumination_Source_Wattage,IMG_Illumination_Aux_Wattage,IMG_Acquisition_Filters,Filter Density ,IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength,IMG_Acquisition_Filter_Nominal_Pass_FWHM
+Symbol,Alternate Symbol,IMG_Imaging_Device_Make,IMG_Imaging_Device_Model,IMG_Sensor,IMG_Lens_Brand,IMG_Lens_model,IMG_Lens_Size_mm,IMG_Spectral_Range,IMG_Spectral_Sensor_Range,IMG_Illumination_Source_Number,IMG_Illumination_Wavelength,IMG_Illumination_Source_Wattage,IMG_Illumination_Aux_Wattage,IMG_Acquisition_Filters,Filter Density ,IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength,IMG_Acquisition_Filter_Nominal_Pass_FWHM
 Units,,,,,,,,,nm,,nm,watts,watts,,g/cm^3,nm,nm
 Uncertainty/Variability (+-),,,,,,,,,,,,,,,,,
 Reference # on Figure,,,,,,,,,,,,,,,,,
