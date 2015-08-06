@@ -1,5 +1,5 @@
-Symbol,Alternate Symbol,IMG_Imaging_Device_Make,IMG_Imaging_Device_Model,IMG_Sensor,IMG_Lens_Brand,IMG_Lens_model,IMG_Lens_Size_mm,IMG_Spectral_Range,IMG_Sensor_Spectral_Range,IMG_Illumination_Source_Number,IMG_Illumination_Wavelength,IMG_Illumination_Source_Wattage,IMG_Illumination_Aux_Wattage,IMG_Acquisition_Filters,Filter Density ,IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength,IMG_Acquisition_Filter_Nominal_Pass_FWHM
-Units,,,,,,,,,nm,watts,nm,,watts,,nm,nm,nm
+Symbol,Alternate Symbol,IMG_Imaging_Device_Make,IMG_Imaging_Device_Model,  IMG_Sensor,  IMG_Lens_Brand,IMG_Lens_model,IMG_Lens_Size_mm,IMG_Spectral_Range,IMG_Spectral_Sensor_Range,IMG_Illumination_Source_Number,IMG_Illumination_Wavelength,IMG_Illumination_Source_Wattage,IMG_Illumination_Aux_Wattage,IMG_Acquisition_Filters,Filter Density ,IMG_Acquisition_Filter_Nominal_Pass_Center_Wavelength,IMG_Acquisition_Filter_Nominal_Pass_FWHM
+Units,,,,,,,,,nm,watts,nm,,watts,,g/cm^3,nm,nm
 Uncertainty/Variability (+-),,,,,,,,,,,,,,,,,
 Reference # on Figure,,,,,,,,,,,,,,,,,
 MB365UV,,MegaVision,E7,Kodak KAF-50100 CCD,Megavision,f/4.5 Macro UV-IR Apochromat,120,355.0-375.0,300-1100,2,365,4.00,,,,,
@@ -36,7 +36,7 @@ WBUVG58,,MegaVision,E7,Kodak KAF-50100 CCD,Megavision,f/4.5 Macro UV-IR Apochrom
 WBUVG61,,,,,,,,,,,,,,,,,
 WBUVO22,,MegaVision,E7,Kodak KAF-50100 CCD,Megavision,f/4.5 Macro UV-IR Apochromat,120,560-1100,300-1100,4,365,4.00,44.00,O22,http://motion.kodak.com/motion/uploadedfiles/Kodak/motion/Products/Lab_And_Post_Production/Kodak_Filters/W2-22.pdf,605,
 WBUVR25,,,,,,,,,,,,,,,,,
-WBUVUVb,,MegaVision,E7,Kodak KAF-50100 CCD,Megavision,f/4.5 Macro UV-IR Apochromat,120,375-1100,300-1100,4,365,4.00,44.00,,,,
+WBUVUVb,,MegaVision,E7,Kodak KAF-50100 CCD,Megavision,f/4.5 Macro UV-IR Apochromat,120,375-1100,300-1100,4,365,4.00,44.00,Schott CG400,2.55,1600,1200
 WBUVUVP,,MegaVision,E7,Kodak KAF-50100 CCD,Megavision,f/4.5 Macro UV-IR Apochromat,120,325-375,300-1100,4,365,4.00,44.00,Baeder U ,,350,25
 MBUVRB,,,,,,,,,,,,,,,,,
 WBRBR25,,MegaVision,E7,Kodak KAF-50100 CCD,Megavision,f/4.5 Macro UV-IR Apochromat,120,590-1100,300-1100,4,455,3.80,,R25,http://motion.kodak.com/motion/uploadedfiles/Kodak/motion/Products/Lab_And_Post_Production/Kodak_Filters/W2-25.pdf,625,
