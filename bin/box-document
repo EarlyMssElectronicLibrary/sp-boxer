@@ -128,13 +128,14 @@ year=`date +%Y`
 shelf_mark=`get_value $metadata_file "SHELF_MARK"`
 recipient=`get_value $metadata_file "RECIPIENT"`
 shelf_mark_dir=`echo $shelf_mark | sed 's/  */_/g'`
+shoot_lists=`get_value SHOOT_LISTS $metadata_file`
 
 package_type=`get_value $metadata_file "PACKAGE_TYPE"`
 if [ ! -n "$package_type" ]; then
     error "Cannot create package without PACKAGE_TYPE (expected: scholar or archive)"
 else
     package_type=`echo $package_type | tr 'A-Z' 'a-z'`
-fi 
+fi
 
 if [[ "$package_type" = 'scholar' ]] || [[ "$package_type" = 'archive' ]]
 then
@@ -190,6 +191,17 @@ sed -f $sedscr $readme_tmp > $readme_file
 message "Wrote $readme_file"
 
 # copy documentation
+# create the documents dir
+documents_dir=$PACKAGE_DIR/Documents
+internal_docs_dir=$documents_dir/Internal
+if [ ! -d $internal_docs_dir ]; then
+  if ! mkdir -p $internal_docs_dir ; then
+    error "Error creating $internal_docs_dir"
+  fi
+fi
+
+
+
 
 # create file list
 filelist_html=$PACKAGE_DIR/02_FileList.html

@@ -1,0 +1,60 @@
+#!/usr/bin/env ruby
+
+require 'getoptlong'
+require 'json'
+require 'yaml'
+require 'pp'
+
+require_relative 'box_config'
+
+include SPBoxer::CLIMessages
+
+COMMAND                  = File.basename(__FILE__)
+data_dir                 = File.expand_path '../../data', __FILE__
+
+imaging_setups_config    = File.join data_dir, 'imaging_setups.yml'
+shootlist_mapping_config = File.join data_dir, 'MAPPING_ShootList2ShotConfig.txt'
+metadata_template_json   = File.join data_dir, 'metadata_template.json'
+
+
+
+format = :csv
+
+def usage
+  puts "Usage: #{COMMAND} [OPTIONS] SHOOT_LIST"
+end # def usage
+
+opts = GetoptLong.new(
+  [ '--help', '-h', GetoptLong::NO_ARGUMENT ],
+  [ '--format', '-f', GetoptLong::ARGUMENT_REQUIRED ],
+)
+
+opts.each do |opt, arg|
+  case opt
+  when '--format'
+    set_format arg
+  when '--help'
+    puts usage
+    puts "
+OPTIONS
+
+      -f FMT, --format FMT
+                  Specify format: csv or html (default: csv)
+      -h, --help  Show help
+
+Using get the camera setup for SHOOT_LIST.
+
+"
+      exit 0
+  end
+end
+
+error COMMAND, "Wrong number of arguments"  unless ARGV.size == 1
+
+shoot_list = ARGV.shift
+
+setup_name = SPBoxer::ShootListMapping.new.setup_name shoot_list
+
+setup_file = SPBoxer::ShotDetail.setup_file setup_name
+
+puts open(setup_file).read
