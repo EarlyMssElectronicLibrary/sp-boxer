@@ -4,7 +4,7 @@ module SPBoxer
       shootlist_mapping = ShootListMapping.new
       setup_name        = shootlist_mapping.setup_name shoot_list
 
-      setup = ImagingSetup.setup setup_name
+      setup = ImagingSetup.build_setup setup_name
       raise "No setup found for #{filename}" unless setup
       setup
     end

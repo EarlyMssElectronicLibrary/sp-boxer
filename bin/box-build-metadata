@@ -5,8 +5,7 @@ require 'json'
 require 'yaml'
 require 'pp'
 
-require_relative 'environment'
-require 'sp-boxer'
+require_relative 'box_config'
 
 include SPBoxer::CLIMessages
 
@@ -45,11 +44,6 @@ error COMMAND, "Wrong number of arguments"  unless ARGV.size == 2
 
 shoot_list = ARGV.shift
 image_file = ARGV.shift
-
-SPBoxer.configure do |config|
-  config.shootlist_mapping = shootlist_mapping_config
-  config.imaging_setups    = imaging_setups_config
-end
 
 metadata = JSON.load(open(metadata_template_json))
 metadata[0]['SourceFile'] = image_file

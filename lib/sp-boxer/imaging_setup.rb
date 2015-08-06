@@ -5,12 +5,12 @@ module SPBoxer
 
     class << self
 
-      def imaging_setups
-        @setups ||= YAML.load(open(SPBoxer.config.imaging_setups))
+      def all_setups
+        @setups ||= YAML.load(open(SPBoxer.config.shot_details))
       end
 
-      def setup name
-        ImagingSetup.new imaging_setups[name]
+      def build_setup name
+        ImagingSetup.new all_setups[name]
       end
     end
 
