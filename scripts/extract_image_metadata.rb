@@ -64,7 +64,7 @@ filter_fwhm                = 'IMG_Filter_Nominal_Pass_FWHM'
 
 
 COMMAND = File.basename __FILE__
-metadata_glob = File.expand_path File.expand_path '../../data/MetadataSpreadsheets/Illumination Details/*.csv', __FILE__
+metadata_glob = File.expand_path File.expand_path '../../data/IlluminationDetails/*.csv', __FILE__
 metadata_csvs = Dir[metadata_glob]
 
 unless metadata_csvs && metadata_csvs.size > 0
@@ -142,7 +142,7 @@ metadata_csvs.each do |csv|
       $stderr.puts "WARNING: code not found: #{shot.code}"
     end
   end
-  config_name = File.basename(csv.chomp('-Table 1.csv')).strip
+  config_name = File.basename(csv, '.csv').strip
   symbol_map[config_name] = csv_hash
 end
 puts YAML.dump symbol_map
