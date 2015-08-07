@@ -49,21 +49,21 @@ online.
 
 This data set consists of:
 
-1.  README.txt file: A description of the data set providing an
+1.  `01_ReadMe.txt` file: A description of the data set providing an
     orientation to the data including, for example, a list of set
     contents (but not their locations), a summary of the images, and
     rights management.
 
-2.  Data: The core data with all images and integrated metadata in
+2.  `Data`: The core data with all images and integrated metadata in
     folders arranged by manuscript.  Each folder contains a subfolder
     by bifolio or folio.
 
-3.  Documents: Internal and external documentation, including
+3.  `Documents`: Internal and external documentation, including
     standards and reference documents.
 
-4.  ResearchContrib directory: Experimental images and other alternate
-    content that contribute to the dataset but are not integrated into
-    the core release.
+4.  `ResearchContrib` directory: Experimental images and other
+    alternate content that contribute to the dataset but are not
+    integrated into the core release.
 
 ### 5.1 Core Data Content
 
@@ -71,7 +71,7 @@ The core content of the data set comprises images and supporting
 metadata for each folio.  For each folio, a comprehensive set of
 high-resolution TIFF images is provided:
 
-1.  Captured Images: Individual monochrome images from each of
+1.  Captured images: Individual monochrome images from each of
     multiple spectral bands taken with different wavelengths of light
     by a spectral imaging system described in the metadata.
 
@@ -106,108 +106,110 @@ three light sources:
 
 1. Book Cradle configuration
 
-   - MB: Main lighting panels are mounted about 70 degrees above the
-     manuscript on each side, with both lights used simultaneously
+     - MB: Main lighting panels are mounted about 70 degrees above the
+       manuscript on each side, with both lights used simultaneously
 
-   - RS, RE: The raking panels are mounted about 15 degrees above the
-     manuscript on the "south" and "east" sides of the scene, with
-     only one panel on for each exposure.
+     - RS, RE: The raking panels are mounted about 15 degrees above
+       the manuscript on the "south" and "east" sides of the scene,
+       with only one panel on for each exposure.
 
-   - TX: The transmissive panel is underneath the page, and the
-     illumination shines through the page.
+     - TX: The transmissive panel is underneath the page, and the
+       illumination shines through the page.
 
 2. Copystand configuration
 
-   - MB: Main lighting panels are mounted about 45 degrees above the
-     manuscript on each side, with both lights used simultaneously
+     - MB: Main lighting panels are mounted about 45 degrees above the
+       manuscript on each side, with both lights used simultaneously
 
-   - RS, RE: The raking panels are mounted about 15 degrees above the
-     manuscript on the "southwest" and "northeast" sides of the scene,
-     with only one panel on for each exposure.
+     - RS, RE: The raking panels are mounted about 15 degrees above
+       the manuscript on the "southwest" and "northeast" sides of the
+       scene, with only one panel on for each exposure.
 
-   - TX: The transmissive panel is underneath the page, and the
-     illumination shines through the page.
+     - TX: The transmissive panel is underneath the page, and the
+       illumination shines through the page.
 
-The illuminations used to produce each image are cited in the
-filename (see below). Each group of capture images is a sequence of registered
-exposures referred to here as a 'shot sequence'. Each palimpsest folio
-side is captured in at least one shot sequence. Rarely a folio side
-will have more than one shot sequence. Each of the twenty-eight to thirty-three
-exposures represents a different combination of illumination
-wavelength, light panel(s), and capture filter. This information is
-encoded in the `CAPTURE_DESCRIPTOR`.  The capture description is one
-of the following symbols:
+The illuminations used to produce each image are cited in the filename
+(see below). Each group of capture images is a sequence of registered
+exposures referred to here as a 'shot sequence'.  Each palimpsest
+folio side is captured in at least one shot sequence. Rarely a folio
+side will have more than one shot sequence.  Each of the twenty-eight
+to thirty-three exposures represents a different combination of
+illumination wavelength, light panel(s), and capture filter.  This
+information is encoded in the `CAPTURE_DESCRIPTOR`.  The capture
+description is one of the following symbols:
 
-  - MB365UV - main panel (MB), 365 nm, ultraviolet (UV) LED
+  - `MB365UV` - main panel (`MB`), 365 nm, ultraviolet (`UV`) LED
     illumination
-  - MB455RB - main panel, 445 nm, royal blue (RB) LED illumination
-  - MB470LB - main panel, 470 nm, light blue (LB) LED illumination
-  - MB505Cy - main panel, 505 nm, cyan (Cy) LED illumination
-  - MB535Gr - main panel, 535 nm, green (Gr) LED illumination
-  - MB570Am - main panel, 570 nm, amber (Am) LED illumination
-  - MB625Rd - main panel, 625 nm, red (Rd) LED illumination
-  - MB700IR - main panel, 700 nm, infrared (IR) LED illumination
-  - MB735IR - main panel, 735 nm, infrared (IR) LED illumination
-  - MB780IR - main panel, 780 nm, infrared (IR) LED illumination
-  - MB870IR - main panel, 870 nm, infrared (IR) LED illumination
-  - MB940IR - main panel, 940 nm, infrared (IR) LED illumination
-  - RE455RB - raking panel east (RE), 455 nm, royal blue (RB) LED
+  - `MB455RB` - main panel, 445 nm, royal blue (`RB`) LED illumination
+  - `MB470LB` - main panel, 470 nm, light blue (`LB`) LED illumination
+  - `MB505Cy` - main panel, 505 nm, cyan (`Cy`) LED illumination
+  - `MB535Gr` - main panel, 535 nm, green (`Gr`) LED illumination
+  - `MB570Am` - main panel, 570 nm, amber (`Am`) LED illumination
+  - `MB625Rd` - main panel, 625 nm, red (`Rd`) LED illumination
+  - `MB700IR` - main panel, 700 nm, infrared (`IR`) LED illumination
+  - `MB735IR` - main panel, 735 nm, infrared (`IR`) LED illumination
+  - `MB780IR` - main panel, 780 nm, infrared (`IR`) LED illumination
+  - `MB870IR` - main panel, 870 nm, infrared (`IR`) LED illumination
+  - `MB940IR` - main panel, 940 nm, infrared (`IR`) LED illumination
+  - `RE455RB` - raking panel east (`RE`), 455 nm, royal blue (`RB`) LED
     illumination
-  - RE870IR - raking panel east, 870 nm, infrared (IR) LED
+  - `RE870IR` - raking panel east, 870 nm, infrared (`IR`) LED
     illumination
-  - RS455RB - raking panel south (RS), 455 nm, royal blue (RB) LED
+  - `RS455RB` - raking panel south (`RS`), 455 nm, royal blue (`RB`) LED
     illumination
-  - RS870IR - raking panel south, 870 nm, infrared (IR) LED
+  - `RS870IR` - raking panel south, 870 nm, infrared (`IR`) LED
     illumination
-  - TX450RB - transmissive panel, 450 nm, royal blue (RB) LED
+  - `TX450RB` - transmissive panel, 450 nm, royal blue (`RB`) LED
     illumination
-  - TX535Gr - transmissive panel, 535 nm, green (Gr) LED illumination
-  - TX570Am - transmissive panel, 570 nm, amber (Am) LED illumination
-  - TX635Rd - transmissive panel, 635 nm, red (Rd) LED illumination
-  - TX700IR - transmissive panel, 700 nm, infrared (IR) LED
+  - `TX535Gr` - transmissive panel, 535 nm, green (`Gr`) LED illumination
+  - `TX570Am` - transmissive panel, 570 nm, amber (`Am`) LED illumination
+  - `TX635Rd` - transmissive panel, 635 nm, red (`Rd`) LED illumination
+  - `TX700IR` - transmissive panel, 700 nm, infrared (`IR`) LED
     illumination
-  - TX780IR - transmissive panel, 780 nm, infrared (IR) LED
+  - `TX780IR` - transmissive panel, 780 nm, infrared (`IR`) LED
     illumination
-  - TX870IR - transmissive panel, 870 nm, infrared (IR) LED
+  - `TX870IR` - transmissive panel, 870 nm, infrared (`IR`) LED
     illumination
-  - TX940IR - transmissive panel, 940 nm, infrared (IR) LED
+  - `TX940IR` - transmissive panel, 940 nm, infrared (`IR`) LED
     illumination
-  - WBRBG58 - main panel, 445 nm, royal blue (RB) illumination, with
-    green #58 filter (G58)
-  - WBRBO22 - main panel, 445 nm, royal blue illumination, with
-    orange #22 filter (O22)
-  - WBRBR28 - main panel, 445 nm, royal blue illumination, with
-    red #28 filter (R28)
-  - WBUVB47 - main panel, 365 nm, ultraviolet (UV) illumination,
-    with blue #47 filter (B47)
-  - WBUVG58 - main panel, 365 nm, ultraviolet illumination, with
-    green #58 filter (G58)
-  - WBUVO22 - main panel, 365 nm, ultraviolet illumination, with
-    orange #22 filter (O22)
-  - WBUVR28 - main panel, 365 nm, ultraviolet illumination, with
-    red #28 filter (R28)
-  - WBUVUVb - main panel, 365 nm, ultraviolet illumination, with
-    ultraviolet blocking filter
-  - WBUVUVP - main panel, 365 nm, ultraviolet illumination, with
-    ultraviolet pass-through filter (UVP)
+  - `WBRBG58` - main panel, 445 nm, royal blue (`RB`) illumination, with
+    green #58 filter (`G58`)
+  - `WBRBO22` - main panel, 445 nm, royal blue illumination, with
+    orange #22 filter (`O22`)
+  - `WBRBR28` - main panel, 445 nm, royal blue illumination, with
+    red #28 filter (`R28`)
+  - `WBUVB47` - main panel, 365 nm, ultraviolet (`UV`) illumination,
+    with blue #47 filter (`B47`)
+  - `WBUVG58` - main panel, 365 nm, ultraviolet illumination, with
+    green #58 filter (`G58`)
+  - `WBUVO22` - main panel, 365 nm, ultraviolet illumination, with
+    orange #22 filter (`O22`)
+  - `WBUVR28` - main panel, 365 nm, ultraviolet illumination, with
+    red #28 filter (`R28`)
+  - `WBUVUVb` - main panel, 365 nm, ultraviolet illumination, with
+    ultraviolet blocking filter (`UVb`)
+  - `WBUVUVP` - main panel, 365 nm, ultraviolet illumination, with
+    ultraviolet pass-through filter (`UVP`)
 
 
 Values:
 
 The panel symbols are:
 
-- MB: Main lighting panels
+- `MB`: Main lighting panels
 
-- RS, RE: The raking panels
+- `RS`, `RE`: The raking panels
 
-- TX: The transmissive panel
+- `TX`: The transmissive panel
+
+- `WB`: Main light panel with filter
 
 #### 5.1.2 Processing types
 
 Each set of captured images is processed using mathematical algorithms
 to provide output images that better reveal the undertext of the
 palimpsest.  Multiple processing algorithms are used by various tools
-and scientists. More processing details are provided in the processed
+and scientists.  More processing details are provided in the processed
 image metadata.
 
 The images in this data set may include one or more of the following
@@ -317,25 +319,25 @@ Where:
   - `EXT` is `.tif` for a TIFF image and `.jpg` for a JPEG image
 
 The basic file name structure is illustrated by the following captured
-file name: GrkNF-MG99_20-9_6r+MB365UV_007.tif
+file name: `GrkNF-MG99_20-9_6r+MB365UV_007.tif`
 
 The components of a captured image file name are:
 
   - Shelfmark: `GrkNF-MG99` for 'Greek NF MG 99'
 
-  - Bifolio (or Folio or fragments): '6r', the folio or folios in the
+  - Bifolio (or Folio or fragments): `6r`, the folio or folios in the
     image scene
 
-  - Shot sequence identifier: '20-9', the grouping of all registered
+  - Shot sequence identifier: `20-9`, the grouping of all registered
     images of this subject captured in this group of exposures; here,
-    for shot sequence with identifier '9' in shoot list '20'
+    for shot sequence with identifier `9` in shoot list `20`
 
-  - Imaging Illumination details preceded by a + sign: '+MB365UV'
-    Illumination light source 'MB' for the main panel LED lights
+  - Imaging Illumination details preceded by a + sign: `+MB365UV`
+    Illumination light source `MB` for the main panel LED lights
     mounted about above the manuscript on each side of the camera lens
 
-    - Serial number: '007', three digit serial number, between 001 and
-    033, for the image within this sequence of exposures; thus, '007'
+    - Serial number: `007`, three digit serial number, between 001 and
+    033, for the image within this sequence of exposures; thus, `007`
     for the 7th image
 
   - Flattening flag: A set of "flats" is captured at the beginning of
@@ -354,11 +356,11 @@ The components of a captured image file name are:
     images serve as the core image data for the production of
     processed images.
 
-  - Extension: 'tif'
+  - Extension: `tif`
 
 This filename indicates the file an image of Greek NF MG 99 folio 6
-recto and was taken as a part of shot sequence '20-9'.  It was
-illumintated by both main panel 365 nm ultraviolet LED lights and was
+recto and was taken as a part of shot sequence `20-9`.  It was
+illuminated by both main panel 365 nm ultraviolet LED lights and was
 assigned serial number 7.  It was flattened upon conversion to TIFF
 format.  Additional information about the image collection parameters
 is contained in the metadata.
@@ -368,13 +370,24 @@ NOTES:
 - Shot sequences: Through rare, a folio is sometimes imaged more than
   once as part of separate shoot lists, and therefore as a different
   shot sequence. For example, a folio may have been imaged on the book
-  cradle and then again later on the copystand. On of function of shot
-  sequences is to differentiate distinct sequences of images of the
-  same folio.
+  cradle and then again later on the copystand. One of functions of
+  shot sequences is to differentiate distinct sequences of images of
+  the same folio.
 
 - Flattening: A set of "flats" is captured at the beginning of each
-  day's imaging session, using consistently ****NEED MORE INFORMATION
-  ABOUT FLATS*****
+  imaging setup.  These are an image sequence taken of a standard
+  white sheet of paper. This is used to "flatten" the captured images,
+  which eliminates differences in captured images caused by
+  variability in illumination or flaws in the camera sensor.  The
+  proprietary imaging software creates a flattened image based on the
+  flat file and the captured palimpsest image. It classifies pixels as
+  normal and abnormal based on the "flats." Some of the abnormal
+  pixels in the captured image may then be adjusted during flattening.
+  These flattened images have an `_F` suffix denoting that they are
+  flattened. The metadata includes the name of the flat file that was
+  used to create the corresponding flattened image.  These captured
+  and flattened images serve as the core image data for the production
+  of processed images.
 
 These captured images serve as the core image data for the production
 of processed images.
@@ -394,11 +407,11 @@ characters:
 `PROCESSOR` gives the initials of the party responsible for generating
 the processed image. The processors are:
 
-  - WCB: Willam Christens-Barry
-  - RLE: Roger Easton
-  - DJK: David Kelbe
-  - KTK: Keith Knox
-  - PSH: The automated imaging application that controls the camera
+  - `WCB`: Willam Christens-Barry
+  - `RLE`: Roger Easton
+  - `DJK`: David Kelbe
+  - `KTK`: Keith Knox
+  - `PSH`: The automated imaging application that controls the camera
     and generates the `color` images at the time of capture
 
 `PROCESSING_TYPE` is a word or code that indicates the method of
@@ -416,27 +429,27 @@ header: `DAT_File_Processing` (in XMP notation,
 
 The basic file name structure is illustrated by the following
 processed image file name:
-GrkNF-MG99_116r-121v_20-07_WCB_PCA_RGB_01.tif
+`GrkNF-MG99_116r-121v_20-07_WCB_PCA_RGB_01.tif`
 
 The components of this sample file name are:
 
-  - Shelfmark: Greek_NF_MG_99'
+  - Shelfmark: `Greek_NF_MG_99`
 
-  - Bifolio (or Folio): '116r-121v '
+  - Bifolio (or Folio): `116r-121v`
 
   - A 2-digit numbers or wavelength symbols indicating the
     illumination light sources combined to create the processed image:
     Images 20 to 07
 
   - Processor: Initials of the scientist who processed the image (not
-    included in color images): WCB (William Christens-Barry)
+    included in color images): `WCB` (William Christens-Barry)
 
   - Processing type and modifier, with some images including a hyphen
     and number further describing the processing type, e.g. pca-2lab,
-    indicating a color processed image:: PCA
+    indicating a color processed image: `PCA`
 
   - Modifier: Additional information about the image: Color image
-    combining the RGB channels extension: always 'tif' or 'jpg'
+    combining the RGB channels extension: always `tif` or `jpg`
 
 #### 5.1.4 Metadata
 
@@ -445,13 +458,13 @@ full details of the processing methods used to generate it.
 
 The metadata for images complies with the Archimedes Palimpsest
 Project Metadata Standard used for spectral imaging projects.  This is
-provided with this set as documentation. The metadata provides
+provided with this set as documentation.  The metadata provides
 investigative, data sharing and scientific information on the images
 and transitions.
 
 Metadata are data elements about the content, quality, condition, and
 other characteristics of the data sets that make up the digital
-holdings. Metadata records are produced according to rules and
+holdings.  Metadata records are produced according to rules and
 definitions governing several subtypes:
 
 1.  Identification Information
@@ -480,6 +493,6 @@ ReadMe file.
 
 For General Orientation to the data set, see
 
--   0\_ReadMe.txt: this file
+-   `0_ReadMe.txt`: this file
 
--   1\_FileIndex.txt: list of files in the data set
+-   `1_FileIndex.txt`: list of files in the data set
