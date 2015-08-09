@@ -472,3 +472,16 @@ cmpActualToLogged() {
 
 MANIFEST_FILE=manifest-md5s.txt
 VALID_FILES=valid_file_names.txt
+
+valid_short_shelfmark() {
+    vssm_mark=$1
+    if [[ -z "$vssm_mark" ]]; then
+        error_no_exit "Short shelf mark is empty: $vssm_mark"
+        return 1
+    elif echo $vssm_mark | egrep -q "\s" ; then
+        error_no_exit "Short shelf mark cannot have a space: $vssm_mark"
+        return 1
+    else
+        return 0
+    fi
+}
