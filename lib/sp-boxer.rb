@@ -4,6 +4,8 @@ require 'sp-boxer/imaging_setup'
 require 'sp-boxer/shot_symbol'
 require 'sp-boxer/metadata'
 require 'sp-boxer/cli_messages'
+require 'sp-boxer/files'
+require 'sp-boxer/file_context'
 
 module SPBoxer
   CAPTURE_REGEX = /\+[A-Z].+(_F\.tiff?|\.jpe?g|dng)$/i

@@ -5,6 +5,6 @@ module SPBoxer
     attr_accessor :shootlist_mapping
     attr_accessor :metadata_template
     attr_accessor :illumination_details_dir
-    attr_accessor :camera_setups_dir
+    attr_accessor :system_geometries_dir
   end
 end

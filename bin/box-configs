@@ -1,0 +1,78 @@
+#!/usr/bin/env ruby
+
+require 'getoptlong'
+require 'json'
+require 'yaml'
+require 'pp'
+
+require_relative 'box_config'
+
+include SPBoxer::CLIMessages
+
+COMMAND                  = File.basename(__FILE__)
+data_dir                 = File.expand_path '../../data', __FILE__
+
+imaging_setups_config    = File.join data_dir, 'imaging_setups.yml'
+shootlist_mapping_config = File.join data_dir, 'MAPPING_ShootList2ShotConfig.txt'
+metadata_template_json   = File.join data_dir, 'metadata_template.json'
+
+
+
+format = nil
+
+def usage
+  puts "Usage: #{COMMAND} [OPTIONS] CONFIG_TYPE SHOOT_LIST"
+end # def usage
+
+opts = GetoptLong.new(
+  [ '--help', '-h', GetoptLong::NO_ARGUMENT ],
+  [ '--format', '-f', GetoptLong::REQUIRED_ARGUMENT ],
+)
+
+opts.each do |opt, arg|
+  case opt
+  when '--format'
+    set_format arg
+  when '--help'
+    puts usage
+    puts "
+OPTIONS
+
+      -f FMT, --format FMT
+                  Specify an output format: csv or html; without
+                  format, print config file path
+      -h, --help  Show help
+
+Print the configuration for CONFIG_TYPE (either 'shots' or 'geometry')
+and SHOOT_LIST. The first argument must be `shots`, for illumination
+and filter details of `shots`, or `geometry`, for the measurements and
+postions of the camera and lighting for a given setup of the imaging
+`system`.
+
+"
+      exit 0
+  end
+end
+
+error COMMAND, "Wrong number of arguments"  unless ARGV.size == 2
+
+config     = ARGV.shift.downcase.to_sym
+shoot_list = ARGV.shift.upcase
+
+setup_name = SPBoxer::ShootListMapping.new.setup_name shoot_list
+
+ctx = SPBoxer::FileContext.new(config_type: config,
+                                shoot_list: shoot_list,
+                                setup_name: setup_name,
+                                format: format)
+
+case format
+when nil
+  puts SPBoxer::Files.new.find_file ctx
+when :csv
+  puts SPBoxer::Files.new.format ctx
+when :html
+  puts SPBoxer::Files.new.format ctx
+end
+
+# puts open(setup_file).read
