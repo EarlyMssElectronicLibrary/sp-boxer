@@ -31,23 +31,18 @@ opts = GetoptLong.new(
 
 opts.each do |opt, arg|
   case opt
-  when '--format'
-    set_format arg
   when '--help'
     puts usage
     puts "
 OPTIONS
 
-      -f FMT, --format FMT
-                  Specify an output format: csv or html; without
-                  format, print config file path
       -h, --help  Show help
 
-Print the configuration for CONFIG_TYPE (either 'shots' or 'geometry')
-and SHOOT_LIST. The first argument must be `shots`, for illumination
-and filter details of `shots`, or `geometry`, for the measurements and
-postions of the camera and lighting for a given setup of the imaging
-`system`.
+Print the path to the configuration for CONFIG_TYPE (either 'shots' or
+'geometry') and SHOOT_LIST. The first argument must be `shots`, for
+illumination and filter details of `shots`, or `geometry`, for the
+measurements and postions of the camera and lighting for a given setup
+of the imaging `system`.
 
 "
       exit 0
@@ -66,13 +61,4 @@ ctx = SPBoxer::FileContext.new(config_type: config,
                                 setup_name: setup_name,
                                 format: format)
 
-case format
-when nil
-  puts SPBoxer::Files.new.find_file ctx
-when :csv
-  puts SPBoxer::Files.new.format ctx
-when :html
-  puts SPBoxer::Files.new.format ctx
-end
-
-# puts open(setup_file).read
+puts SPBoxer::Files.new.find_file ctx
