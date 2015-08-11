@@ -200,7 +200,30 @@ if [ ! -d $internal_docs_dir ]; then
   fi
 fi
 
+box_configs=`$dirname $0`/box-configs
+for shlist in $shoot_lists
+do
+    shots_file=`$box_configs shots $shlist`
+    if [[ -n "$shots_file" ]]; then
+        shots_out="$internal_docs_dir/ShotConfigurationsForShootList-${shlist}.csv"
+        cp -v "$shots_file" "$shots_out"
+        message "Wrote $shots_out"
+    else
+        warning "Could not find shots file for $shlist"
+    fi
 
+    geometry_file=`$box_configs geometry $shlist`
+    if [[ -n "$geometry_file" ]]; then
+        geometry_out="$internal_docs_dir/ImagingSystemGeometryForShootList-${shlist}.csv"
+        cp -v "$geometry_file" "$geometry_out"
+        message "Wrote $geometry_out"
+    else
+        warning "Could not find geometry file for $shlist"
+    fi
+
+    shots_file=
+    geometry_file=
+done
 
 
 # create file list
