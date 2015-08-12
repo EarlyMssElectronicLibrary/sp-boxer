@@ -128,7 +128,7 @@ year=`date +%Y`
 shelf_mark=`get_value $metadata_file "SHELF_MARK"`
 recipient=`get_value $metadata_file "RECIPIENT"`
 shelf_mark_dir=`echo $shelf_mark | sed 's/  */_/g'`
-shoot_lists=`get_value SHOOT_LISTS $metadata_file`
+shoot_lists=`get_value $metadata_file SHOOT_LISTS`
 
 package_type=`get_value $metadata_file "PACKAGE_TYPE"`
 if [ ! -n "$package_type" ]; then
@@ -200,13 +200,13 @@ if [ ! -d $internal_docs_dir ]; then
   fi
 fi
 
-box_configs=`$dirname $0`/box-configs
+box_configs=`dirname $0`/box-configs
 for shlist in $shoot_lists
 do
     shots_file=`$box_configs shots $shlist`
     if [[ -n "$shots_file" ]]; then
         shots_out="$internal_docs_dir/ShotConfigurationsForShootList-${shlist}.csv"
-        cp -v "$shots_file" "$shots_out"
+        cp "$shots_file" "$shots_out"
         message "Wrote $shots_out"
     else
         warning "Could not find shots file for $shlist"
@@ -215,7 +215,7 @@ do
     geometry_file=`$box_configs geometry $shlist`
     if [[ -n "$geometry_file" ]]; then
         geometry_out="$internal_docs_dir/ImagingSystemGeometryForShootList-${shlist}.csv"
-        cp -v "$geometry_file" "$geometry_out"
+        cp "$geometry_file" "$geometry_out"
         message "Wrote $geometry_out"
     else
         warning "Could not find geometry file for $shlist"
