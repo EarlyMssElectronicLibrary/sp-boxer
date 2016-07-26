@@ -1,3 +1,4 @@
 shunit2*
 .#*
 junk*.ruby-version
+.ruby-version
