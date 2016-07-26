@@ -485,3 +485,47 @@ valid_short_shelfmark() {
         return 0
     fi
 }
+
+# Using dest file path DEST_PATH and input file INPUT_FILE, extract the image
+# subject.
+#
+# DEST_PATH should be something like:
+#
+#     some/path/to/AraNF-28_128r_60-001/AraNF-28_128r_60-001_KTK_pseudo_WBUVB47-MB780IR.jpg
+#
+# INPUT_FILE will be a package input file with SEQ_DIR declarations:
+#
+#     SEQ_DIR AraNF-28_138v_60-022 Sinai Arabic NF 28 138v
+#     SEQ_DIR AraNF-28_129v-134r_K-17-004 Sinai Arabic NF 28 129v, 134r
+#     SEQ_DIR AraNF-28_129v_60-004 Sinai Arabic NF 28 129v
+#     SEQ_DIR AraNF-28_128v-135r_K-17-002 Sinai Arabic NF 28 128v, 135r
+#     SEQ_DIR AraNF-28_128v_60-002 Sinai Arabic NF 28 128v
+#     SEQ_DIR AraNF-28_128r-135v_K-17-001 Sinai Arabic NF 28 128r, 135v
+#
+# The image subject is the text flollowing 'SEQ_DIR' and the directory name
+# (e.g., 'AraNF-28_138v_60-022'). For 'AraNF-28_138v_60-022', the image
+# subject is "Sinai Arabic NF 28 138v".
+image_subject() {
+  is_dest_path=$1
+  [[ "$is_dest_path" ]] || { echo "No DEST_PATH provided" >&2; return 1; }
+  is_input_file=$2
+  [[ "$is_input_file" ]] || { echo "No INPUT_FILE provided" >&2; return 1; }
+
+  # next to last elment in path is the sequence dir
+  is_seq_dir=`echo $is_dest_path | awk -F '/' '{ print $(NF - 1) }'`
+  [[ "$is_seq_dir" ]] || { echo "Could not extract sequencde dir from path '$is_dest_path'" >&2; return 1; }
+
+  # extract the sequence dir line
+  is_line=`grep "^SEQ_DIR[[:space:]][[:space:]]*\b${is_seq_dir}\b" ${is_input_file}`
+  [[ "$is_line" ]] || { echo "Unable to find line for sequence dir: '$is_seq_dir'" >&2; return 1; }
+
+  # squeeze the spaces in the line, get all text from field 3 to the end
+  is_desc=`echo "$is_line" | tr -s ' ' | cut -d ' ' -f3-`
+  if [[ "$is_desc" ]]; then
+    echo "$is_desc"
+    return 0
+  else
+    echo "Unable to find description for sequence dir '$is_seq_dir'" >&2;
+    return 1
+  fi
+}
