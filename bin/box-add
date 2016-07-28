@@ -224,6 +224,17 @@ do
   fi
 done < $seq_dirs
 
+# Add any CSV or TEI files
+input_dir=`dirname $INPUT_FILE`
+tei_csv_files=`ls $input_dir/*.csv $input_dir/*.xml 2>/dev/null`
+if [[ $tei_csv_files ]]
+  then
+  message "Copying TEI and CSV files to $data_dir"
+  cp -v $tei_csv_files $data_dir
+else
+  warning "No TEI or CSV files found in input directory $input_dir"
+fi
+
 metadata_tmp=$tmp.3
 # copy the files
 # PICK source new_name
