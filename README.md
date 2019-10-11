@@ -83,3 +83,7 @@ repository; and its path and name in the `Data` directory
 `CONTRIB` - each file that goes into the `ResearchContrib/Data` directory: its
 path and name in the repository; and its path and name in the
 `ResearchContrib/Data` directory
+
+## No contributions
+
+Please note that the software is not being updated and pull requests are not accepted.
